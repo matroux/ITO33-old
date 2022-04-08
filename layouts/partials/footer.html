@@ -1,0 +1,63 @@
+<footer>
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-5 py-5 mt-5 border-top">
+      <div class="col mb-5 mb-md-2">
+        <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+          <img src="/images/logo-footer.png" alt="logo">
+        </a>
+      </div> 
+      
+      <div class="col mb-5 mb-md-2">
+        <h5>SOLUTIONS</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Opscore</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Banking Cocos</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Volatility Management</a></li>
+        </ul>
+      </div>
+  
+      <div class="col mb-5 mb-md-2">
+        <h5>PUBLICATIONS</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Articles</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Videos</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Photos</a></li>
+        </ul>
+      </div>
+  
+      <div class="col mb-5 mb-md-2">
+        <h5>ITO33</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">About ITO33</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Management Team</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Careers</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Client Login</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Our Clients</a></li>
+        </ul>
+      </div>
+  
+      <div class="col mb-5 mb-md-2">
+        <h5>CONTACT US</h5>
+      </div>
+
+      
+    </div>
+
+  </div>
+</footer>
+  
+<div class="footer-bottom">
+  <div class="container">
+    <div class="d-flex justify-content-between py-4">
+      <p class="mb-0 d-none d-md-block">&copy; Copyrighting Text . All Rights Reserved</p>
+      <ul class="list-unstyled d-flex mb-0 m-auto me-md-0">
+        {{range .Site.Params.socail}}
+          <li class="ms-3"><a class="link-light" href="{{.url}}"><i class="{{.icon}}"></i></a></li>
+        {{end}}
+      </ul>
+    </div>
+
+  </div>
+
+   
+  </div>

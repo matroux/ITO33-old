@@ -1,0 +1,59 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+[menu]
+[[menu.main]]
+  identifier = 'about'
+  name = 'About ITO33'
+  url = '/about/'
+  weight = 1
+[[menu.main]]
+  identifier = 'solutions'
+  name = 'Solutions'
+  post = ""
+  pre = ""
+  url = '/Solutions/'
+  weight = 2
+[[menu.main]]
+  identifier = 'clients'
+  name = 'Our Clients'
+  post = ""
+  pre = ""
+  url = '/our-clients/'
+  weight = 3
+[[menu.main]]
+  identifier = 'publications'
+  name = 'Publications'
+  post = ""
+  pre = ""
+  url = '/Publications/'
+  weight = 4
+[[menu.main]]
+  identifier = 'contact'
+  name = 'Contact Us'
+  post = ""
+  pre = ""
+  url = '/contact-us/'
+  weight = 5
+
+[params]
+ 
+[[params.socail]]
+url = "/"
+icon = "fab fa-facebook-f"
+[[params.socail]]
+url = "/"
+icon = "fab fa-twitter"
+
+[[params.socail]]
+url = "/"
+icon = "fab fa-linkedin-in"
+
+[[params.socail]]
+url = "/"
+icon = "fab fa-google-plus-g"
+
+[[params.socail]]
+url = "/"
+icon = "fab fa-instagram"

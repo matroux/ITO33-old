@@ -1,0 +1,9 @@
+{{ define "main" }}
+	{{- partial "hero.html" . -}}
+	{{- partial "our-solution.html" . -}}
+	{{- partial "latest-news.html" . -}}
+	{{- partial "cta.html" . -}}
+	{{- partial "publications.html" . -}}
+
+    {{.Content}}
+{{end}}
