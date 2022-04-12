@@ -20,7 +20,7 @@
   <nav class="navbar navbar-expand-sm px-md-4 py-3 ito33-nav" aria-label="Third navbar example">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">
-        <img src="/images/logo.png" alt="logo"> 
+        <img src="/images/logo.png" alt="logo"> <br> 
         <img src="/images/tags.png" alt="tag" class="tagline d-none d-lg-block">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarsExample03">
-        <ul class="navbar-nav me-auto mb-2 mb-sm-0 align-items-center">
+        <ul class="navbar-nav ms-auto mb-2 mb-sm-0 align-items-center">
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.main }}
                     {{ if .HasChildren }}
