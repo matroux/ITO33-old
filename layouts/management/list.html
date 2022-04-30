@@ -1,0 +1,35 @@
+{{ define "main" }}
+{{ partial "page-header.html" . }}
+{{ partial "topinfo.html" . }}
+    <section class="section">
+        <div class="container">            
+            <div class="row">
+                <div class="col section-heading text-center mb-5">
+                    <h2>{{.Title}}</h2>
+                    <p>{{.Params.desc}}</p>
+                </div>
+            </div>               
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                {{ with .Site.GetPage "section" "management" }}
+                {{ range  .Data.Pages }}
+                    <div class="col management-list">
+                        <div class="card h-100">
+                            {{ "<!-- project-item -->" | safeHTML }}
+                            <img src="{{ .Params.profileImage }}" class="card-img-top" alt="{{ .Title }}">
+                            <div class="card-body">
+                                <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                                <p class="card-text">{{.Params.position}}</p>
+                            </div>
+                        </div>
+                    </div>
+                {{ end }}
+            {{ end }}
+
+
+              </div>
+        </div>
+    </section>
+
+{{ .Content }}
+
+{{end}}

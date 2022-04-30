@@ -1,0 +1,16 @@
+{{ $data := .Params.topInfo  }}
+{{if  $data.enable }}
+<div class="breadcrumb-outter  {{$data.bg}}">
+    <div class="container">
+        <div class="row">
+            <div class="col">            
+                <ul class="{{$data.type}}">
+                    {{range $data.list }}
+                        <li><a href="{{.link}}">{{.text}}</a></li>
+                    {{end}}
+                </ul>    
+            </div>
+        </div>
+    </div>
+</div>
+{{end}}

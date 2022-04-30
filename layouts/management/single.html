@@ -1,0 +1,31 @@
+{{ define "main" }}
+{{ partial "page-header.html" . }}
+{{ partial "topinfo.html" . }}
+<section class="management section">
+    <div class="container">
+        <div class="row">            
+            <div class="col-md-3">
+                <div class="profile-image">
+                    <img src="{{.Params.profileImage}}" alt="{{.Title}}" class="rounded-circle">
+                </div>                
+                {{with .Params.social}}
+                    <ul class="social">
+                        {{ range . }}
+                            <li class="{{.name}}"><a href="{{.link}}"><i class="{{.icon}}"></i></a></li>
+                        {{ end }}
+                    </ul>
+                {{end}}
+            </div>
+            <div class="col-md-8 offset-md-1">                
+                <h1>{{.Title}}</h1>
+                <p class="position">{{.Params.position}}</p>
+
+                {{ .Content }}
+            </div>
+        </div>
+    </div>
+    
+
+</section>
+
+{{end}}
