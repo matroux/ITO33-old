@@ -471,13 +471,14 @@ footer{
       background: rgba($primary,0.7);
       border-radius: 50%;
       padding: 4px;
-      width: 42px;
-      height: 42px;
+      width: 32px;
+      height: 32px;
       color: $white;
       display: flex;
       justify-content: center;
       align-items: center;
       text-decoration: none;
+      font-size: 15px;
 
       &:hover{
         background: $primary;
