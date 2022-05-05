@@ -35,6 +35,7 @@ p{
 }
 
 .btn{
+  outline: none;
   &.btn-primary{
     background: $primary;
     font-size: 16px;
@@ -43,6 +44,7 @@ p{
     border-radius: 8px;
     padding: 0.5em 1.2em;    
     margin-right: 8px;
+    border: transparent;
   }
 
   &.btn-outline-primary{
@@ -77,6 +79,10 @@ p{
 }
 
 .solutions{
+  min-height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   h3{
     font-size: 22px;
     font-weight: 600;

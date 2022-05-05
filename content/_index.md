@@ -39,7 +39,7 @@ solutions:
 - heading: |
    The Convertible Bond 
    Pricing Solution
-  subheading: BANKING COCOS
+  subheading: CoCo33
   image: "/images/coco3.png"
   background: "#97BED6"
   text: |
