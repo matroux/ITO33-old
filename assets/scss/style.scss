@@ -26,7 +26,7 @@ $line-height-md: 1.75;
 body {
   margin: 0;
   font-family: $font-body;
-  font-size: 23px;
+  font-size: 20px;
 }
 p{
   margin: 0;
@@ -488,14 +488,15 @@ footer{
 .management{
   h1{
     color: $black;
+    font-size: 1.8rem;
   }
   .position{
     color: $text;
   }
 }
 .profile-image{
-  width: 320px;
-  height: 320px;
+  width: 220px;
+  height: 220px;
   margin: auto;
   img{
     height: 100%;
