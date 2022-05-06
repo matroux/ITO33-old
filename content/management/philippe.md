@@ -1,5 +1,5 @@
 ---
-title: Philippe
+title: PHILIPPE HENROTTE
 image: "/images/management.jpg"
 topInfo:
   enable: true

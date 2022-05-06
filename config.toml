@@ -57,3 +57,6 @@ icon = "fab fa-google-plus-g"
 [[params.socail]]
 url = "/"
 icon = "fab fa-instagram"
+
+[minify.tdewolff.html]
+keepWhitespace = false
