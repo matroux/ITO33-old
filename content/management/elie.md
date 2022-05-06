@@ -1,5 +1,5 @@
 ---
-title: ELIE AYACHE
+title: Elie Ayache
 image: "/images/management.jpg"
 topInfo:
   enable: true
