@@ -77,7 +77,9 @@ p{
     font-weight: 400;
   }
 }
-
+.navbar-brand{
+  max-width: 20%;
+}
 .solutions{
   min-height: 650px;
   display: flex;
@@ -318,6 +320,9 @@ footer{
     font-size: 22px;
     a{
       color: $black;
+      font-family: $font-special;
+      text-decoration: none;
+      text-transform: uppercase;
       &:hover{
         color: $primary;
       }
@@ -325,7 +330,8 @@ footer{
   }
   .card-text{
     color: $text;
-    font-size: 16px;
+    font-size: 16px;    
+    font-family: $font-special;
   }
 }
 
