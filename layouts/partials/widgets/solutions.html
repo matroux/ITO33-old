@@ -1,0 +1,37 @@
+<section class="section d-none d-md-block pb-0">
+    <div class="container">
+        {{ if or  .title .subtitle }}
+        <div class="row">
+            <div class="col section-heading text-center mb-5">
+                <h2 class="color-black">{{.title | markdownify }}</h2>
+                <div class="color-text">{{ .subtitle  | safeHTML}}</div>
+            </div>
+        </div> 
+        {{end}}   
+    </div>
+</section>
+{{ range $index, $ele :=  .lists  }}
+<section class="section solutions {{if not (modBool $index 2)}} dark-bg {{end}}" style="background: {{.background}};">
+    <div class="container">
+        <div class="row featurette1 align-items-center">
+            <div class="col-md-5 {{if not (modBool $index 2)}} order-md-2 offset-1 {{end}} ">
+              <img src="{{.image}}" alt="{{.heading}}" class="img-fluid">      
+            </div>
+
+            <div class="col-md-6  {{if not (modBool $index 2)}} order-md-1 {{else}} offset-md-1 {{end}}">
+                <h3>{{.subheading}}</h3>
+                <h2 class="featurette-heading1 ">                  
+                    {{.heading}}
+                </h2>
+              <p class="lead">{{.text}}</p>
+              <div class="btn-container">
+                  {{range $index, $ele := .btn}}
+                    <a href="{{.url}}" class="btn {{if eq $index 0}} btn-primary {{else}} btn-outline-primary {{end}} mr-2">{{.text}}</a>
+
+                  {{end}}
+              </div>
+            </div>
+          </div>
+      </div>
+</section>
+{{end}}

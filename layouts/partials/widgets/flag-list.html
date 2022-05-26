@@ -1,0 +1,27 @@
+{{ if .enable }}
+{{ $type := .type }}
+{{ $class := .class }}
+{{ $bodyClass := .bodyClass }}
+
+<section class="section {{$class}}">
+    <div class="container">
+        <div class="row">            
+            <div class="col-12 {{ $bodyClass }} body-content">
+
+                {{.title}}
+               <ul class="flag-list">                   
+                    {{ range $i, $data := .lists }}
+                    <li>
+                        <img src="{{.flag}}" alt="{{.flag}}" width="42"> {{.country}}
+                    </li>
+                   {{end}}
+               </ul>
+
+            </div>
+               
+        </div>
+    </div>
+    
+
+</section>
+{{end}}

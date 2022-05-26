@@ -1,0 +1,9 @@
+{{ $lead := false }}
+{{ if reflect.IsSlice . }}
+  {{ range $key, $widget := (where . "enable" true) }}
+    {{ $partialPath := printf "widgets/%s.html" $widget.type }}
+    {{ if templates.Exists ( printf "partials/%s" $partialPath ) }}
+      {{ partial $partialPath (merge (dict "lead" $lead) $widget) }}
+    {{ end }}
+  {{ end }}
+{{ end }}

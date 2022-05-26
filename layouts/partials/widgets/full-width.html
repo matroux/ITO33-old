@@ -1,0 +1,24 @@
+{{ if .enable }}
+{{ $type := .type }}
+{{ $class := .class }}
+{{ $bodyClass := .bodyClass }}
+
+<section class="section {{$class}}">
+    <div class="container">
+        <div class="row">
+            <div class="col section-heading text-center mb-5">
+                <h2>{{.title | markdownify }}</h2>
+                <div>{{ .subtitle  | safeHTML}}</div>
+            </div>
+        </div> 
+        <div class="row">            
+            <div class="col-12 {{ $bodyClass }} body-content">
+                {{ .content | markdownify }}
+            </div>
+               
+        </div>
+    </div>
+    
+
+</section>
+{{end}}

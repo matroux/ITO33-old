@@ -6,7 +6,12 @@
             <div class="col">            
                 <ul class="{{$data.type}}">
                     {{range $data.list }}
-                        <li><a href="{{.link}}">{{.text}}</a></li>
+                        <li class="align-items-{{.position}} {{.class}}">
+                            {{ if .link }}
+                                <a href="{{.link}}">
+                            {{ end }} {{ with .image}}<img src="{{.}}" alt="" class="mb-4">{{end}} <span> {{ .text | safeHTML }}</span>
+                            {{ if .link }}</a>{{end}}
+                        </li>
                     {{end}}
                 </ul>    
             </div>
