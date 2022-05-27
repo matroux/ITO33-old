@@ -360,6 +360,16 @@ footer{
       font-size: 16px;
     }
   } 
+  footer{
+    .link-dark{
+      justify-content: center;
+    }
+    .flex-column, h5 {
+      text-align: center;
+    }
+   
+  }
+
 
   .solutions{
     h3{
@@ -380,7 +390,7 @@ footer{
   .cta{
     height: 222px;
   }
-.latest-news{
+ .latest-news{
   .carousel-caption{
     position: relative;
     left: 0px;
@@ -403,6 +413,10 @@ footer{
       font-size: 16px;
     }
   }
+
+  
+
+ 
 
 }
 
@@ -474,6 +488,7 @@ footer{
     &.column{
       display: flex;
       flex-wrap: wrap;
+      margin-top: 1rem;
 
       li{
         flex: 1 0 0%;
@@ -481,6 +496,9 @@ footer{
         display: flex;
         flex-direction: column;
         color: $white;
+        img{
+          max-width: 42px;
+        }
 
         small{
           color: $secondary;
@@ -489,16 +507,17 @@ footer{
         &.contact-info{
           margin-top: 20px;
           img{
-            max-width: 42px;
+            max-width: 32px;
           }
 
           span{
             display: block;
             text-align: center;
             line-height: 3rem;
+            font-size: 16px;
 
             small{
-              line-height: 2rem;
+              line-height: 1.3rem;
               color: #fff;
               display: block;
             }

@@ -70,7 +70,7 @@ widgets:
       title: 
       bodyClass: col-md-10 offset-md-1 mt-5
       bgImage: /images/map.png  
-      image: /images/ctc.png  
+      image:  
       subtitle:
       content: >-
         "The feeling here regarding the ITO 33 product is very positive on all levels, and we have been impressed with the results; moreover, we have been very pleased with the level of service and response, as we have always been presented with intelligent solutions to our problems and queries. Congratulations! "
