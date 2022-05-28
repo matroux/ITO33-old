@@ -595,6 +595,10 @@ footer{
   background-position: center;
   background-size: contain;
 
+  &.body-content{
+    min-height: 450px;
+  }
+
   .map-logo{
    text-align: center;
    img{
@@ -626,6 +630,21 @@ footer{
   
 }
 
+.map-tab{
+  li{
+    a{
+      border: 0px !important;
+      color: #000;
+      border-radius: .25rem !important;
+
+      &.show, &.active      {
+        background-color: #97BED6 !important;
+        color: #fff!important ;
+      }
+    }
+  }
+}
+
 .contact-form{
   .form-control{
     outline: none;
@@ -636,6 +655,8 @@ footer{
     padding: 0px 0px 20px;
   }
 }
+
+
 
 
 
