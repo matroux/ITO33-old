@@ -10,12 +10,7 @@ topInfo:
   list:
   - text: PHONE <br> <small>+33 1 47 07 08 12</small>
     image: "/images/phone.png"
-    position: "center"
-    class: contact-info
-  - text: EMAIL <br> <small>INFO@ITO33.COM</small>
-    image: "/images/mail.png"
-    position: "center"
-    class: contact-info
+    position: "center text-center"
   - text: ADDRESS <br> <small>36 RUE LACÉPÈDE <br> 75005 PARIS, FRANCE</small>
     image: "/images/mappin.png"
     position: "center"
@@ -38,23 +33,4 @@ widgets:
         
         Here's what some of them had to say.
       bodyClass: "text-center mt-5 color-text"
-
-  after:
-    - enable: true
-      subtitle: Omdömen om botox i Stockholm
-      testimonialItem:
-        - client_image: images/testimonial/client-1.jpg
-          content: >-
-            Med åren har jag fått flera rynkor i pannan som jag inte riktigt
-            trivs med. Därför går jag regelbundet hos Botox i Stockholm och gör
-            injektioner i pannan. Jag har alltid varit supernöjd.
-          designation: Botoxbehandling
-          name: Maria Svensson
-        - client_image: images/testimonial/client-2.jpg
-          content: >-
-            Jag har kämpat med migränattacker i flera år och testat det mesta
-            utan resultat. Till slut fick jag en remiss att göra botox mot
-            migrän och jag är så glad över det.
-          designation: Botox mot migrän
-          name: Ida Karlsson
 ---
