@@ -13,8 +13,8 @@ topInfo:
     position: "center text-center"
   - text: ADDRESS <br> <small>36 RUE LACÉPÈDE <br> 75005 PARIS, FRANCE</small>
     image: "/images/mappin.png"
-    position: "center"
-    class: contact-info
+    position: "center text-center"
+    class: contact-info mt-0
 widgets:
   before:
     - enable: true

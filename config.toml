@@ -60,3 +60,8 @@ icon = "fab fa-instagram"
 
 [minify.tdewolff.html]
 keepWhitespace = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -15,7 +15,8 @@
                     <div class="col management-list">
                         <div class="card h-100">
                             {{ "<!-- project-item -->" | safeHTML }}
-                            <img src="{{ .Params.profileImage }}" class="card-img-top" alt="{{ .Title }}">
+                            <div class="profile-img"><img src="{{ .Params.profileImage }}" class="card-img-top" alt="{{ .Title }}"></div>
+                            
                             <div class="card-body">
                                 <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
                                 <p class="card-text">{{.Params.position}}</p>
