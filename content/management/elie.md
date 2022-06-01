@@ -13,7 +13,7 @@ topInfo:
   - text:  Elie Ayache
     link: "#"
 profileImage: "/images/elie.jpg"
-position: "Co-Founder & Partner"
+position: "Co-Founder & CEO"
 social:
 - name: linkedin
   icon: fab fa-linkedin-in
