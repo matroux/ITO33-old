@@ -10,7 +10,7 @@ topInfo:
     link: "#"
   - text: The Management
     link: "/management/"
-  - text: Serge Kouyoumjian
+  - text: Philippe Henrotte
     link: "#"
 profileImage: "/images/philippenew.jpg"
 position: "Co-Founder & Partner"
