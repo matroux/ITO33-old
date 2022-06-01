@@ -19,7 +19,6 @@ widgets:
           OPSCORE
         subheading: The Convertible Bond
           Pricing Solution
-        subheading: 
         image: "/images/p1.jpg"
         background: ""
         text: |
