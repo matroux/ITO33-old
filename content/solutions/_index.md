@@ -16,13 +16,13 @@ widgets:
       subtitle: WE PROVIDE THE SOLUTION FOR ASSET MANAGEMENT
       lists:
       - heading: |
-          OPSCORE
-        subheading: The Convertible Bond
+          The Convertible Bond
+        subheading: OPSCORE
           Pricing Solution
         image: "/images/p1.jpg"
         background: ""
         text: |
-          The complete front-office solution for the pricing, the hedging and the analysis of convertible securities.  It consists of three components: a data model of            terms  and conditions, a pricing engine and an excel front-end.
+        Opscore is our complete front-office solution for the pricing, hedging and analysis of convertible securities. According to Sheen Kassouf and Edward Thorp (co-          authors of Beat the Market), a convertible security is “any security that may be exchanged for common stock”.   
         btn:
         - text: Explore
           url: "#"
