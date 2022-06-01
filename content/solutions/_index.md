@@ -16,7 +16,7 @@ widgets:
       subtitle: WE PROVIDE THE SOLUTION FOR ASSET MANAGEMENT
       lists:
       - heading: |
-      The Convertible Bond 
+   OPSCORE
         subheading: VOLATILITY MANAGEMENT
           Pricing Solution
         subheading: 
