@@ -43,19 +43,18 @@ widgets:
     - enable: true
       type: accordian
       lists:
-      - title: Overview
+      - title: DATA MODEL OF TERMS AND CONDITIONS
         subtitle: 'Opscore'
         content: >-
-          Opscore is a pricing and risk management framework for regulatory capital securities issued by banks following the Basel III  
-          
-          capital adequacy requirements. It can be extended to cover regulatory capital securities issued by insurance companies 
-          according to the Solvency II regulations.    
+         Opscore is our complete front-office solution for the pricing, hedging and analysis of convertible securities. According to Sheen Kassouf and Edward Thorp              (co-authors of Beat the Market), a convertible security is “any security that may be exchanged for common stock”. In addition to warrants, Kassouf and Thorp's            classification includes convertible bonds, convertible preferred stocks, calls, stock rights and stock options. Opscore consists of three components:
 
-          It relies on a powerful equity-to-credit regime switching reduced form model with stochastic bail-in intensities and stochastic credit to analyse AT1 CoCo bonds, perpetual non-cumulative preferred shares and Tier 2 bonds issued by banks. The regime switching model is jointly calibrated on the market quotes of all relevant securities related to the issuing bank such as credit default swaps, options and bonds, on top of the regulatory instruments themselves. Joint calibration allows for consistent pricing and leads to meaningful hedge ratios and risk parameters.    
+           The clauses of convertible securities can be so complex that their accurate treatment not only necessitates pricing engines as evolved as ours, but also                 requires referring to the prospectus as the only reliable and complete source of information.
 
-          Once the model for the underlying issuing company is specified, either through calibration or manually, it can be used to evaluate the regulatory securities, to produce hedge ratios or risk parameters, or to analyse various risk scenarios. The product includes a database of terms and conditions and a technology to  serialize and store either the model parameters or the entire environment used in the calibration.    
+            For this reason, we maintain a continuously evolving database schema for the terms and conditions of convertible securities. Each time we add a new feature             to our pricing engine (after some newly released prospectus), we release the updates of both the pricing engine and the data model.
 
-          Opscore libraries are designed to integrate smoothly into existing risk management or front office systems. Excel add-ins offer an intuitive way to deploy the solution on a desk. A simple and intuitive Excel based utility is provided to test the various functionalities of the product.
+            Terms and conditions can be edited through a graphical user interface, as shown in Figure 1, and stored in the database. The user can also create and                   define terms and conditions for new issues of convertible securities.
+
+            The data model of Opscore covers convertible bonds, mandatories, equity options and CB callable asset swaps as shown in Figure 2. Terms and conditions of               credit default swaps (CDS) are also handled, as they are needed for the calibration of the default component of the equity-to-credit process.
         button:
           enable: ""
           label: "Request a Demo" 
