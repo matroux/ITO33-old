@@ -71,14 +71,13 @@ widgets:
           enable: ""
           label: "Request a Demo" 
           link: ""
-      - title: CoCo Valuation
+      - title: EXCEL FRONT END
         subtitle: ''
         content: >-
-          <ul><li>The price of the instrument with the various usual market conventions (clean or dirty, as a percentage of nominal).</li> <li>The price of the instrument assuming that it is called by the isuer at the next call date.</li>
-          <li>The price of the instrument in the second regime, that is if a credit downgrade were to occur instantly.</li>
-          <li>The Delta of the model (the first derivative of the price of the instrument with respect to the price of the stock of the underlying issuing  company). It is meaningful for CoCos which convert into equity upon trigger of the bail-in.</li><li>The yield to maturity in case of a T2 bond with finite maturity.</li><li>The yield to next call for a perpetual AT1 bond or a perpetual preferred share.</li><li>The optimal joint hedge ratios on the underlying and a CDS.</li></ul>
+             <ul><li>Using Microsoft Office Automation, the user can export all the terms and conditions of the convertible security from the Opscore data model to                  the Opscore Excel Analyzer. Several theoretical models can be defined and simulated on this worksheet. 3D surfaces of theoretical values and Greeks can                 be instantaneously plotted. More generally, every single output can be plotted as a function of every single input. This is achieved by the VBA                         routines of the Opscore Excel Analyzer, which, in turn, call the DLL of the pricing engine; moreover, the user can simulate terms and conditions                        different from the ones that are stored in the Opscore database, without affecting the stored data.</li>
+               <li> Alternatively, users can build their own Excel spreadsheet, laying out the results of the pricing engine any way they please thanks to the Opscore                 XLL functions. The Opscore XLLs accept the identification number of the given security (its internal database code, ISIN, CUSIP, Bloomberg number or                   SEDOL) as an argument. This allows the XLLs to retrieve the corresponding terms and conditions from the Opscore database. The remaining arguments are                   the theoretical parameters (such as Brownian volatility and hazard rate). They are produced on the spreadsheet, either by calibration routines or by                    direct user input.</li></ul>
         beforeText: >-
-          Once the model has been calibrated to the equity-to-credit universe, CoCo 33 proposes numerous functionalities to analyse the regulatory securities. CoCo 33 currently provides the following outputs for a given capital regulatory instrument:
+          Since Excel is probably the most popular front end among traders and hedge fund managers, we made sure that all the results of Opscore are published to                  Excel. There are two ways the user may view these results:
         gallery:
         - image: "/images/spread.png"
           title: ""
