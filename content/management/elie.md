@@ -10,7 +10,7 @@ topInfo:
     link: "#"
   - text: The Management
     link: "/management/"
-  - text: Serge Kouyoumjian
+  - text:  Elie Ayache
     link: "#"
 profileImage: "/images/elie.jpg"
 position: "Co-Founder & Partner"
