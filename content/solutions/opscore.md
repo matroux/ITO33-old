@@ -59,10 +59,14 @@ widgets:
           enable: ""
           label: "Request a Demo" 
           link: ""
-      - title: The Regime Switching Model
+      - title: PRICING ENGINE
         subtitle: ''
         content: >-
-         content coming soon
+         This is the heart of Opscore and the core of our expertise. The pricing engine is the numerical solver of the equity-to-credit Partial Differential Equations           (PDE) with the terms and conditions of the given derivative instrument acting as boundary conditions. Our implementation relies on the most advanced finite              difference schemes. These schemes include computational grids that adapt in order to best capture the events, whether in time or space, that occur during              the lifetime of the specific instrument.
+
+            Inputs to the pricing engine are the terms and conditions of the instruments involved in the pricing, market data (yield curves, stock spot price and FX               rates), market assumptions (dividend forecast and recovery rates for each instrument involved on pricing and calibration) and the theoretical parameters               (Brownian volatility, hazard rate) which are inferred from the calibration routines, themselves an integral part of the pricing engine.
+
+            Programmed in C++, the pricing engine can be exploited as a separate suite of DLLs (Dynamic-Link Libraries) which the user may wish to integrate into                    his/her exisiting system, independently of the database schema of Opscore or the Excel functionality. To this end, COM, Java and C++ interfaces are                    available. The DLL can also be called from Matlab. The client, therefore, can choose between integrating our DLLs into his/her system or relying on us to              maintain the databases schema.
         button:
           enable: ""
           label: "Request a Demo" 
