@@ -29,8 +29,7 @@ widgets:
           url: "#requestdemo"
           popup: "true"
       - heading: |
-          The Convertible Bond 
-          Pricing Solution
+         Pricing and Risk Management Framework
         subheading: CoCo33
         image: "/images/coco3.png"
         background: "#97BED6"
