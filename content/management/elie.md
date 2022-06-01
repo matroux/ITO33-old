@@ -21,7 +21,7 @@ social:
 layout: management   
 ---
 
-Serge graduated from ESSEC, the French business school, in 1986, before leading a 
+Elie graduated from ESSEC, the French business school, in 1986, before leading a 
 long and successful banking career in Paris, London and New-York as a fixed-income 
 specialist, for names like CCF, UBS and Credit Suisse. He gained significant experience 
 in market-making, trading, and risk-management. Serge is a co-founder of ITO 33, and
