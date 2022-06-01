@@ -1,0 +1,61 @@
+{{ if .enable }}
+{{ $odd := false }}
+{{ $type := .type }}
+{{ $lead := .lead }}
+{{ $layout := .layout | default "primary" }}
+{{ $class := .class }}
+<section class="section publications card-list">
+    <div class="container-fluid">
+        <div class="row pb-5">
+            <div class="col section-heading text-center">
+                <h2 class="mb-0">{{.title}}</h2>
+                <p class="mt-0">{{ .subtitle | markdownify }}</p>
+            </div>
+        </div> 
+        {{ range $i, $data := .itemlists }}
+            <div class="container {{if ne $i 0}} mt-5 {{end}}">
+                <div class="row">
+                    <div class="col d-flex justify-content-between mb-4">
+                        <div>
+                            <h3>{{.title}}</h3>
+                            <p>{{ .subtitle | markdownify }}</p>
+                        </div>
+
+                        <hr class="hr">
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-1">
+                {{ range $i, $data := .card }}
+                    <div class="col mb-3">
+                        <div class="card  h-100 border-0">
+                            <img src="{{.image}}" class="bd-placeholder-img">
+                            <div class="card-body">
+                                <h3 class="my-3 card-text">{{.title}}</h3>
+                                {{ with .content}}
+                                    <p class="card-text">{{ . }}
+                                    </p>
+                                {{end}}
+                            </div>
+
+                        </div>
+                    </div>
+                {{end}}
+            </div>
+            {{with .button}}
+                <div class="row">
+                    <div class="col text-center my-4">
+                        <a href="{{ .link }}"  class="btn btn-primary d-block d-sm-inline-block hover-ripple" {{ if .popup }} data-bs-toggle="modal" data-bs-target="{{ .link }}"{{end}}>{{ .label }}</a>
+                    </div>
+                </div>
+            {{end}}
+
+        {{end}}
+                
+        </div>
+        
+    
+    </div>
+</section>
+{{end}}
+

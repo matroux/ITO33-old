@@ -1,0 +1,55 @@
+
+<div class="modal fade contact-form  request-demo" id="requestdemo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div> -->
+      <form id="fs-frm" name="request-demo" accept-charset="utf-8" action="https://formspree.io/f/mbjwwwnv" method="post">
+          
+      <div class="modal-body">
+        
+            <div class="mb-3">
+                <label for="full-name" class="col-form-label">Full name*</label>
+                <input type="text" class="form-control" id="full-name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="col-form-label">Email*</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+            <div class="mb-3">
+                <label for="phone" class="col-form-label">Phone*</label>
+                <input type="tel" class="form-control" id="phone">
+            </div>
+            <div class="mb-3">
+                <label for="company-name" class="col-form-label">Company name*</label>
+                <input type="text" class="form-control" id="company-name" required>
+              </div>
+              <div class="mb-3">
+            <fieldset id="fs-frm-selects">
+                <!-- <label for="timely" class="col-form-label">Product</label> -->
+                <select name="product" id="product" required="">
+                <option value="" selected="" disabled="">Product</option>
+                <option value="1">Strongly Agree</option>
+                <option value="3">Agree</option>
+                <option value="5">Neutral</option>
+                <option value="7">Disagree</option>
+                <option value="9">Strongly Disagree</option>
+                </select>
+            </fieldset>
+        </div>
+
+        <div class="recaptcha" data-sitekey=""></div>
+        
+      </div>
+      <div class="modal-footer">
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+        <input type="hidden" name="_subject" id="email-subject" value="Request Demo">
+        <button type="submit" class="btn btn-primary w-100">Submit</button>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
+

@@ -27,7 +27,8 @@ widgets:
         - text: Explore
           url: "#"
         - text: Request a Demo
-          url: "#"
+          url: "#requestdemo"
+          popup: "true"
       - heading: |
           The Convertible Bond 
           Pricing Solution
@@ -40,7 +41,8 @@ widgets:
         - text: Explore
           url: "#"
         - text: Request a Demo
-          url: "#"
+          url: "#requestdemo"
+          popup: "true"
       - heading: |
           The Equity Derivatives 
           Pricing Expert
@@ -53,6 +55,7 @@ widgets:
         - text: Explore
           url: "#"
         - text: Request a Demo
-          url: "#"
+          url: "#requestdemo"
+          popup: "true"
 ---
 

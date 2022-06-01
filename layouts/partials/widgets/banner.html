@@ -1,0 +1,50 @@
+<!-- banner -->
+{{ if .enable }}
+{{ $odd := false }}
+{{ $type := .type }}
+{{ $lead := .lead }}
+{{ $layout := .layout | default "primary" }}
+{{ $class := .class }}
+{{ range $i, $data := .bannerItem }}
+  {{if not (modBool $i 2)}}{{ $odd = true }}{{ else }}{{ $odd = false }}{{ end }}
+  {{ with $data }}
+  <section class="section{{ if eq $layout "secondary"}} bg-secondary{{ end }}{{ with $class }} {{ . }}{{ end }}">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        {{ if isset . "image" }}
+        <div class="col-12 col-md-5 bg-contain {{ if $odd }}order-md-2{{ else }}order-md-1{{ end }}" data-background="{{ .bg_image | absURL }}">
+          <!-- this image is for trigger this section fallback background image -->
+          <img class="d-none" src="{{ .bg_image | absURL }}" />
+          <img loading="lazy" class="mt-5 img-fluid w-100" src="{{ .image | absURL }}" alt="{{ .title | safeCSS }}">
+        </div>
+        {{ end }}
+        <div class="col-12{{ if isset . "image" }} col-md-6{{ if $odd }} order-md-1{{ else }} order-md-2{{ end }}{{ end }}">
+          <div class="section-title-border"></div>
+          <p class="section-title-sm h6{{ if eq $layout "secondary"}} text-black{{ end }}">{{ .subtitle | markdownify }}</p>
+          {{ if $lead }}
+            <h1{{ if eq $layout "secondary"}} class="text-black"{{ end }}>{{ .title | markdownify }}</h1>
+            {{ $lead = false}}
+          {{ else }}
+            <h3{{ if eq $layout "secondary"}} class="text-black"{{ end }}>{{ .title | markdownify }}</h3>
+          {{ end }}
+          <p class="mb-5{{ if eq $layout "secondary"}} text-black{{ end }}">{{ .content | markdownify }}</p>
+          {{ with .button }}
+            {{ if .enable }}
+            <!-- <a href="{{ .link | absLangURL }}" class="btn btn-primary d-block d-sm-inline-block hover-ripple">{{ .label }}</a> -->
+            <a href="{{ .link }}"  class="btn btn-primary d-block d-sm-inline-block hover-ripple" {{ if .popup }} data-bs-toggle="modal" data-bs-target="{{ .link }}"{{end}}>{{ .label }}</a>
+            {{ end }}
+          {{ end }}
+        </div>
+        {{ with .gallery }}
+        {{ range . }}
+        <div class="col-12 col-md-4">
+          <img loading="lazy" class="img-fluid w-100" src="{{ .image | absURL }}" alt="{{ .title | safeCSS }}">
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}
+{{ end }}

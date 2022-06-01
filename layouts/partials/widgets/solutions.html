@@ -26,7 +26,7 @@
               <p class="lead">{{.text}}</p>
               <div class="btn-container">
                   {{range $index, $ele := .btn}}
-                    <a href="{{.url}}" class="btn {{if eq $index 0}} btn-primary {{else}} btn-outline-primary {{end}} mr-2">{{.text}}</a>
+                    <a href="{{.url}}" class="btn {{if eq $index 0}} btn-primary {{else}} btn-outline-primary {{end}} mr-2" {{ if .popup }} data-bs-toggle="modal" data-bs-target="{{ .url }}"{{end}}>{{.text}}</a>
 
                   {{end}}
               </div>
