@@ -16,13 +16,12 @@ widgets:
       subtitle: WE PROVIDE THE SOLUTION FOR ASSET MANAGEMENT
       lists:
       - heading: |
-          The Convertible Bond
+          The Convertible Bond Pricing Solution
         subheading: OPSCORE
-          Pricing Solution
         image: "/images/p1.jpg"
         background: ""
         text: |
-          The complete front-office solution for the pricing, the hedging and the analysis of convertible securities.  It consists of three components: a data model of            terms  and conditions, a pricing engine and an excel front-end.   
+          The complete front-office solution for the pricing, the hedging and the analysis of convertible securities. It consists of three components: a data model of            terms  and conditions, a pricing engine and an excel front-end.   
         btn:
         - text: Explore
           url: "#"
@@ -37,7 +36,7 @@ widgets:
         background: "#97BED6"
         text: |
           CoCo 33 is a pricing and risk management framework for regulatory capital securities issued by banks following the Basel III
-           capital adequacy requirements. 
+           capital adequacy requirements. It relies on a powerful equity-to-credit regime switching reduced form model with stochastic bail-in intensities and                    stochastic credit to analyse AT1 CoCo bonds, perpetual non-cumulative preferred shares and Tier 2 bonds issued by banks.
         btn:
         - text: Explore
           url: "#"
