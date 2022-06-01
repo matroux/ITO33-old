@@ -22,7 +22,7 @@ widgets:
         image: "/images/p1.jpg"
         background: ""
         text: |
-        Opscore is our complete front-office solution for the pricing, hedging and analysis of convertible securities. According to Sheen Kassouf and Edward Thorp (co-          authors of Beat the Market), a convertible security is “any security that may be exchanged for common stock”.   
+        The complete front-office solution for the pricing, the hedging and the analysis of convertible securities.  It consists of three components: a data model of            terms  and conditions, a pricing engine and an excel front-end.   
         btn:
         - text: Explore
           url: "#"
@@ -36,7 +36,8 @@ widgets:
         image: "/images/coco3.png"
         background: "#97BED6"
         text: |
-          The complete front-office solution for the pricing, the hedging and the analysis of convertible securities.  It consists of three components: a data model of            terms  and conditions, a pricing engine and an excel front-end.
+          CoCo 33 is a pricing and risk management framework for regulatory capital securities issued by banks following the Basel III
+           capital adequacy requirements. 
         btn:
         - text: Explore
           url: "#"
