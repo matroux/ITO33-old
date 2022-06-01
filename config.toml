@@ -6,7 +6,7 @@ title = 'ITO33'
 [[menu.main]]
   identifier = 'about'
   name = 'About ITO33'
-  url = '/about/'
+  url = '/management/'
   weight = 1
 [[menu.main]]
   identifier = 'solutions'
