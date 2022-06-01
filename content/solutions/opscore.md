@@ -15,10 +15,8 @@ widgets:
     - enable: true
       type: solutions
       title: >-
-        pricing and risk management framework    
-        
-        for regulatory capital securities
-      subtitle: WE PROVIDE THE SOLUTION FOR ASSET MANAGEMENT
+        The Convertible Bond Pricing Solution   
+      subtitle: A complete front-office solution for the pricing, hedging and analysis 
     - enable: true
       class: pt-5 c0l-12  bg-half mb-5
       type: banner
@@ -27,16 +25,16 @@ widgets:
       bannerItem:
       - bg_image: images/backgrounds/about-us-bg.webp
         content: >-
-         <i class="fa fa-check"></i> equity-to-credit regime    
+         <i class="fa fa-check"></i> DATA MODEL OF TERMS AND CONDITIONS    
 
 
-         <i class="fa fa-check"></i> joint calibration    
+         <i class="fa fa-check"></i> PRICING ENGINE   
 
 
-         <i class="fa fa-check"></i> smooth integration        
+         <i class="fa fa-check"></i> EXCEL FRONT END       
         image: images/Cocobanking.jpg
         subtitle: ''
-        title: 'Sage Intacct receives the  highest product score in  Core Financials'
+        title: ' Opscore consists of three components:'
         button:
           enable: "true"
           label: "Request a Demo"
