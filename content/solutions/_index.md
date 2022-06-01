@@ -17,6 +17,7 @@ widgets:
       lists:
       - heading: |
           The Convertible Bond 
+        subheading: VOLATILITY MANAGEMENT
           Pricing Solution
         subheading: 
         image: "/images/p1.jpg"
