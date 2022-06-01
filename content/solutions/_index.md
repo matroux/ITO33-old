@@ -38,7 +38,7 @@ widgets:
            capital adequacy requirements. It relies on a powerful equity-to-credit regime switching reduced form model with stochastic bail-in intensities and                    stochastic credit to analyse AT1 CoCo bonds, perpetual non-cumulative preferred shares and Tier 2 bonds issued by banks.
         btn:
         - text: Explore
-          url: "solutions/cococ33.md"
+          url: "cococ33.md"
         - text: Request a Demo
           url: "#requestdemo"
           popup: "true"
