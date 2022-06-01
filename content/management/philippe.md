@@ -20,17 +20,7 @@ social:
   link: "#"
 layout: management   
 ---
-Serge graduated from ESSEC, the French business school, in 1986, before leading a 
-long and successful banking career in Paris, London and New-York as a fixed-income 
-specialist, for names like CCF, UBS and Credit Suisse. He gained significant experience 
-in market-making, trading, and risk-management. Serge is a co-founder of ITO 33, and
-the one in charge of our business and commercial endeavors. He delights in the 
-possibility that ITO 33 may grow to captivate the financial services community as a 
-company with a grand vision and lofty aspirations, while being grounded in its research,
-engineering and hands-on spirit. His happier moments include when he feels he has 
-earned a new client's trust and support.
+Philippe is Head of Financial Theory and Research at ITO 33. He earned his Ph.D from Stanford University after graduating from Ecole Polytechnique de Paris. For many years, Philippe was a Professor of Finance at HEC. Anything that our pricing models may have to deal with, beyond Black-Scholes, falls squarely within his jurisdiction. This ranges from the incorporation of default risk in our convertible bond pricing PDEs to the full radiance of the smile problem in currency and equity options.
 
-Products such as Opscore, which are live on the most sophisticated convertible bond 
-desks, Serge likes to call our "produits finis". Everyone knows what they do better than 
-any other software package, everyone knows what they cost. As for our "produits infinis" 
-(and by that Serge means our ongoing scientific research), they are literally priceless.
+When confronted with the excitement of his latest discoveries and their far-reaching implications, Philippe feels a bit like a GI embarking on a ship to Normandie in June 1944: there is no turning back!
+
