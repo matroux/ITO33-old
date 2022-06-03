@@ -599,7 +599,7 @@ footer{
 
           span{
             display: block;
-            text-align: center;
+            // text-align: center;
             line-height: 3rem;
             font-size: 16px;
 
@@ -781,6 +781,17 @@ footer{
 .card-list{
   .hr{
     width: 70%;
+  }
+}
+.job-lists{
+  border-bottom: 1px solid #97BED6;
+  &:last-child{
+  border-bottom: 0px solid #97BED6;
+
+  }
+  margin-bottom: 5rem;
+  .accordian-conatiner{
+    .accordion-item .accordion-collapse.collapse.show::before{display: none;}
   }
 }
 

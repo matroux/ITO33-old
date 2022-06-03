@@ -1,0 +1,100 @@
+{{ if .enable }}
+{{ $type := .type }}
+{{ $class := .class }}
+{{ $bodyClass := .bodyClass }}
+{{ $odd := false }}
+{{ $type := .type }}
+{{ $lead := .lead }}
+{{ $layout := .layout | default "primary" }}
+
+<section class="section {{$class}}">
+  <div class="container">
+    <div class="row">
+        <div class="col section-heading text-center mb-5">
+            <h2>{{.title | markdownify }}</h2>
+            <div>{{ .subtitle  | safeHTML}}</div>
+
+        </div>
+    </div> 
+    {{ range $index1, $data := .lists }}
+      <div class="row job-lists">
+          <div class="col-md-4 section-heading  mb-5">
+              <h3>{{.title | markdownify }}</h3>
+              {{ $maintitle := .title }}
+              {{with  .subtitle}}
+              <div>{{ .  | safeHTML}}</div> 
+              {{end}}
+              {{ with .button }}
+                {{ if .enable }}
+                <a href="{{ .link }}"  class="btn btn-primary d-sm-inline-block hover-ripple mx-auo" {{ if .popup }} data-bs-toggle="modal" data-bs-target="{{ .link }}"{{end}}>{{ .label }}</a>
+              {{end}}
+              {{end}}
+          </div>
+          <div class="col-md-8 mb-5 accordian-conatiner {{.class}}">
+              <h5 class="color-primary">Overview</h5>
+              <div class="overview">{{.overview}}</div> 
+
+              <div class="accordion" id="accordionExample">
+                {{ range $i, $data := .jobDetails }}
+                <div class="accordion-item">    
+                    <h2 class="accordion-header" id='heading{{$i}}-{{ replaceRE "(\\s)" "-" $maintitle | lower }}'>
+                      <div class="container">
+                      <button class="accordion-button {{if ne $i 0 }}collapsed{{end}}  ps-5" type="button" data-bs-toggle="collapse" data-bs-target='#collapse{{$i}}-{{ replaceRE "(\\s)" "-" $maintitle | lower }}' aria-expanded="{{if eq $i 0 }}true{{else}}false{{end}}" aria-controls='collapse{{$i}}-{{ replaceRE "(\\s)" "-" $maintitle | lower }}'>{{.title}}  
+                      </button></div>
+                    </h2>
+                    <div id='collapse{{$i}}-{{ replaceRE "(\\s)" "-" $maintitle | lower }}' class="accordion-collapse collapse {{if eq $i 0 }}show{{end}}" aria-labelledby='heading{{$i}}-{{ replaceRE "(\\s)" "-" $maintitle | lower }}' data-bs-parent="#accordionExample">
+                      <div class="accordion-body container ps-5 pb-5">
+                        <div class="row ps-3">
+                          <div class="col-12">
+                            {{ with .subtitle }}<h4 class="mb-4">{{.}} </h4>{{end}}
+                            {{ with .beforeText }}<div class="mb-4">{{.}} </div>{{end}}
+                            
+                          </div>
+                          {{ if .gallery }}
+                            <div class="col-12 col-md-4">                       
+                              {{ with .gallery }}
+                                {{ range . }}                    
+                                  <img loading="lazy" class="img-fluid w-100 mb-4" src="{{ .image | absURL }}" alt="{{ .title | safeCSS }}">
+                                
+                                {{ end }}
+                            {{ end }}
+                            </div>
+                          {{end}}
+                          <div class="{{ if .gallery }}col-md-8 {{else}} col-12 {{end}}">
+                            
+                              {{.content | markdownify }}
+                          </div>
+            
+                          
+                          {{ with .afterText }}<div class="mb-4">{{.}} </div>{{end}}
+            
+                          {{ with .button }}
+                            {{ if .enable }}
+                              <div class="col-12 align-items-right d-flex justify-content-end">
+                                <a href="{{ .link }}"  class="btn btn-primary d-inline-block hover-ripple" {{ if .popup }} data-bs-toggle="modal" data-bs-target="{{ .link }}"{{end}}>{{ .label }}</a>
+                                
+                              </div>
+                            {{ end }}
+                          {{ end }}
+            
+                          
+                        </div>
+                        
+                        
+                     
+                      </div>
+                    </div>
+            
+                </div>
+                {{end}}
+            
+            </div>
+
+          </div>
+      </div> 
+      {{end}}
+
+
+  </div>
+</section>
+{{end}}

@@ -10,33 +10,33 @@
       <div class="col mb-5 mb-md-2">
         <h5>SOLUTIONS</h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Opscore</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">CoCo33</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Volatility Management</a></li>
+          {{ range .Site.Params.footerlink }}
+            <li class="nav-item mb-2"><a href="{{.url}}" class="nav-link p-0 ">{{.name}}</a></li>
+          {{ end }}
         </ul>
       </div>
   
       <div class="col mb-5 mb-md-2">
-        <h5>PUBLICATIONS</h5>
+        <h5>PUBLICATIONS</h5> 
         <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Articles</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Videos</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Photos</a></li>
+          {{ range .Site.Params.publicationslinks }}
+            <li class="nav-item mb-2"><a href="{{.url}}" class="nav-link p-0 ">{{.name}}</a></li>
+          {{end}}
         </ul>
       </div>
   
       <div class="col mb-5 mb-md-2">
         <h5>ITO33</h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">About ITO33</a></li>
-          <li class="nav-item mb-2"><a href="/management" class="nav-link p-0 ">Management Team</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Careers</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Our Clients</a></li>
+          {{ range .Site.Params.ito33 }}
+            <li class="nav-item mb-2"><a href="{{.url}}" class="nav-link p-0 ">{{.name}}</a></li>
+          {{end}}
         </ul>
       </div>
   
       <div class="col mb-5 mb-md-2">
         <h5>CONTACT US</h5>
+       
       </div>
 
       
