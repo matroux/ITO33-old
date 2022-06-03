@@ -41,12 +41,12 @@ widgets:
         card:
         - image: /images/article-1.png
           title: Implied Probability of Bail-In
-          link: "#"
+          link: "[#](https://wilmott.com/implied-probability-of-bail-in/)"
           label: Implied Probability of Bail-In
           external: 
         - image: /images/article-2.png
-          title: Implied Probability of Bail-In
-          link: "#"
+          title: Valuing convertible bonds with 20-of-30 soft call provision
+          link: "[#](https://www.ito33.com/sites/default/files/articles/Valuing%20CBs%20with%2020%20of%2030%20soft%20call%20provision.pdf)"
           label: Implied Probability of Bail-In
           external: 
         - image: /images/article-2.png
