@@ -32,7 +32,7 @@ widgets:
         provide information about our activities and events. 
       itemlists:
       - title: Articles
-        subtitle: lorem ipsum subtitle 
+        subtitle: General Publications
         button:
           enable: "true"
           label: "Show More"
@@ -41,28 +41,28 @@ widgets:
         card:
         - image: /images/article-1.png
           title: Implied Probability of Bail-In
-          link: "[#](https://wilmott.com/implied-probability-of-bail-in/)"
+          link: "https://wilmott.com/implied-probability-of-bail-in"
           label: Implied Probability of Bail-In
           external: 
         - image: /images/article-2.png
           title: Valuing convertible bonds with 20-of-30 soft call provision
-          link: "[#](https://www.ito33.com/sites/default/files/articles/Valuing%20CBs%20with%2020%20of%2030%20soft%20call%20provision.pdf)"
-          label: Implied Probability of Bail-In
+          link: "https://www.ito33.com/sites/default/files/articles/Valuing%20CBs%20with%2020%20of%2030%20soft%20call%20provision.pdf"
+          label: Valuing convertible bonds with 20-of-30 soft call provision
           external: 
         - image: /images/article-2.png
-          title: Implied Probability of Bail-In
-          link: "#"
-          label: Implied Probability of Bail-In
+          title: Which model for equity derivatives?
+          link: "https://www.ito33.com/sites/default/files/articles/Risk0412ito33_0.pdf"
+          label: Which model for equity derivatives?
           external: 
         - image: /images/article-2.png
-          title: Implied Probability of Bail-In
-          link: "#"
-          label: Implied Probability of Bail-In
+          title: Divining dividends
+          link: "https://www.ito33.com/sites/default/files/articles/1109_ito33.pdf"
+          label: Divining dividends
           external: 
       - title: Video
         subtitle: lorem ipsum subtitle 
         button:
-          enable: "true"
+          enable: "false"
           label: "Show More"
           popup: 
           link: "/article/"
