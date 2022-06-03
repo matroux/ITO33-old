@@ -1,0 +1,40 @@
+<div class="modal fade contact-form  request-demo " id="apply" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content px-3">
+        <form id="fs-frm" name="request-demo" accept-charset="utf-8" action="https://formspree.io/f/xrgjjwnw" method="post">          
+            <div class="modal-body">
+            
+                <div class="mb-3">
+                    <label for="full-name" class="col-form-label">Full name*</label>
+                    <input type="text" class="form-control" id="full-name" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="col-form-label">Upload their cv*</label>
+                    <input type="file" name="attachment" accept=".pdf" required>
+                </div>                
+                <div class="mb-3">
+                    <label for="coverletter" class="col-form-label">cover letter</label>                
+                    <textarea name="coverletter" placeholder="cover letter" class="w-100" rows="4"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="col-form-label">Email*</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="phone" class="col-form-label">Phone*</label>
+                    <input type="tel" class="form-control" id="phone">
+                </div>
+                
+            </div>
+            
+            <div class="modal-footer">
+                <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                <input type="hidden" name="_subject" id="email-subject" value="Apply Job">
+                <button type="submit" class="btn btn-primary w-100">Send</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>

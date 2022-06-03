@@ -291,6 +291,13 @@ p{
     font-family: $font-special;
     font-size: 17px;
     line-height: 2em;
+    a{
+      color: #000;
+      &:hover{
+        color: $primary;
+      }
+
+    }
   }
 }
 
@@ -301,12 +308,13 @@ footer{
   h5{
     color: #EAEAEA;
     margin-bottom: 30px;
+    font-size: 1.1rem;
   }
   ul{
     li{
       .nav-link{
         color: #EAEAEA;
-        font-size: 16px;
+        font-size: 14px;
 
       }
     }
@@ -734,6 +742,9 @@ footer{
 }
 
 .contact-form{
+  h2{
+    font-size: 1.7rem;
+  }
   .col-form-label{
     font-size: 1rem;
   }
@@ -785,6 +796,24 @@ footer{
   .hr{
     width: 70%;
   }
+  .bd-placeholder-img{
+    overflow: hidden;
+    img{
+      transition: all 2s ease;
+      transform: scale(1);
+    }
+    a{
+      transition: all 2s ease;
+      &:hover{
+       img{
+         
+    transform: scale(1.1);
+          
+        }
+      }
+    }
+  } 
+  
 }
 .job-lists{
   border-bottom: 1px solid #97BED6;

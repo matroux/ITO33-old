@@ -67,52 +67,24 @@ widgets:
           popup: 
           link: "/article/"
         card:
-        - image: /images/article-1.png
+        - vimeo: "103286163"
           title: Implied Probability of Bail-In
           link: "#"
           label: Implied Probability of Bail-In
           external: 
-        - image: /images/article-2.png
+        - youtube: "i3IlVCKl3dA"
           title: Implied Probability of Bail-In
           link: "#"
           label: Implied Probability of Bail-In
           external: 
-        - image: /images/article-2.png
+        - youtube: "i3IlVCKl3dA"
           title: Implied Probability of Bail-In
           link: "#"
           label: Implied Probability of Bail-In
           external: 
-        - image: /images/article-2.png
+        - youtube: "i3IlVCKl3dA"
           title: Implied Probability of Bail-In
           link: "#"
           label: Implied Probability of Bail-In
-          external:  
-      - title: Photo
-        subtitle: lorem ipsum subtitle 
-        button:
-          enable: "true"
-          label: "Show More"
-          popup: 
-          link: "/article/"
-        card:
-        - image: /images/article-1.png
-          title: Data Collected
-          link: "#"
-          label: Implied Probability of Bail-In
-          external: 
-        - image: /images/article-2.png
-          title: Risk BARC
-          link: "#"
-          label: Implied Probability of Bail-In
-          external: 
-        - image: /images/article-2.png
-          title: EOD probas
-          link: "#"
-          label: Implied Probability of Bail-In
-          external: 
-        - image: /images/article-2.png
-          title: EOD vanilla 3D
-          link: "#"
-          label: Implied Probability of Bail-In
-          external: 
+          external:
 ---
