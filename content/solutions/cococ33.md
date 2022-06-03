@@ -46,7 +46,7 @@ widgets:
       type: accordian
       lists:
       - title: Overview
-        subtitle: 'opscore'
+        subtitle: 'CoCo 33'
         content: >-
           CoCo 33 is a pricing and risk management framework for regulatory capital securities issued by banks following the Basel III  
           

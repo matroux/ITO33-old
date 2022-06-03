@@ -10,10 +10,10 @@ topInfo:
     link: "#"
   - text: The Management
     link: "/management/"
-  - text: Serge Kouyoumjian
+  - text:  Elie Ayache
     link: "#"
 profileImage: "/images/elie.jpg"
-position: "Co-Founder & Partner"
+position: "Co-Founder & CEO"
 social:
 - name: linkedin
   icon: fab fa-linkedin-in
@@ -21,17 +21,8 @@ social:
 layout: management   
 ---
 
-Serge graduated from ESSEC, the French business school, in 1986, before leading a 
-long and successful banking career in Paris, London and New-York as a fixed-income 
-specialist, for names like CCF, UBS and Credit Suisse. He gained significant experience 
-in market-making, trading, and risk-management. Serge is a co-founder of ITO 33, and
-the one in charge of our business and commercial endeavors. He delights in the 
-possibility that ITO 33 may grow to captivate the financial services community as a 
-company with a grand vision and lofty aspirations, while being grounded in its research,
-engineering and hands-on spirit. His happier moments include when he feels he has 
-earned a new client's trust and support.
+Elie is the initiator of ITO 33. He graduated from Ecole Polytechnique de Paris in 1987. Speaking of his 8 years of experience as a volatility trader, Elie says it was just "a shortcut" into options science. Banks in those days thought they needed top engineers to deal with options. Dealing options was another story, but Elie did not mind the ellipsis, as long as he came full circle, and finally became an engineer after long being an options trader.
 
-Products such as Opscore, which are live on the most sophisticated convertible bond 
-desks, Serge likes to call our "produits finis". Everyone knows what they do better than 
-any other software package, everyone knows what they cost. As for our "produits infinis" 
-(and by that Serge means our ongoing scientific research), they are literally priceless.
+Elie's shortest cut was his first day on the floor: October 19, 1987, a day marked by a huge, unpredictable crash of the stock market that shook the global finance industry. From that first day, Elie learned that what happened then could happen any day. Yet that day was so exceptional that even if you were to replay it some other day, you would not get the same result. The same would hold for any other day. This completely ruled out the notion of "truth" in the markets as something you can think twice about, let alone try to reproduce, simulate or even represent by a model or algorithm. Traders need tools to help them speak everyday language, not a wizard to preach the truth to them once and for all.
+
+Besides a few other books and many articles, Elie published The Blank Swan at Wiley in 2010.
