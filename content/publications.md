@@ -49,12 +49,12 @@ widgets:
           link: "https://www.ito33.com/sites/default/files/articles/Valuing%20CBs%20with%2020%20of%2030%20soft%20call%20provision.pdf"
           label: Valuing convertible bonds with 20-of-30 soft call provision
           external: 
-        - image: /images/article-2.png
+        - image: /images/article3.jpg
           title: Which model for equity derivatives?
           link: "https://www.ito33.com/sites/default/files/articles/Risk0412ito33_0.pdf"
           label: Which model for equity derivatives?
           external: 
-        - image: /images/article-2.png
+        - image: /images/article4.jpg
           title: Divining dividends
           link: "https://www.ito33.com/sites/default/files/articles/1109_ito33.pdf"
           label: Divining dividends
@@ -62,7 +62,7 @@ widgets:
       - title: Video
         subtitle: lorem ipsum subtitle 
         button:
-          enable: "false"
+          enable: "true"
           label: "Show More"
           popup: 
           link: "/article/"
