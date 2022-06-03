@@ -60,22 +60,22 @@ widgets:
           label: Divining dividends
           external: 
       - title: Video
-        subtitle: lorem ipsum subtitle 
+        subtitle: From our seminars
         button:
           enable: "true"
           label: "Show More"
           popup: 
           link: "/article/"
         card:
-        - vimeo: "103286163"
-          title: Implied Probability of Bail-In
+        - vimeo: "X30JIXuuwQs"
+          title: The future was the market
           link: "#"
-          label: Implied Probability of Bail-In
+          label: The future was the market
           external: 
-        - youtube: "i3IlVCKl3dA"
-          title: Implied Probability of Bail-In
+        - youtube: "atATQR407rg"
+          title: Elie ayache on speculation
           link: "#"
-          label: Implied Probability of Bail-In
+          label: Elie ayache on speculation
           external: 
         - youtube: "i3IlVCKl3dA"
           title: Implied Probability of Bail-In
