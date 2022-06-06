@@ -3,6 +3,10 @@
       <div class="modal-content px-3">
         <form id="fs-frm" name="request-demo" accept-charset="utf-8" action="https://formspree.io/f/xrgjjwnw" method="post">          
             <div class="modal-body">
+                <div class="modal-header pt-0 ps-0">
+                    <h5 class="modal-title">Modal title</h5>
+                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                </div>
             
                 <div class="mb-3">
                     <label for="full-name" class="col-form-label">Full name*</label>
@@ -31,10 +35,30 @@
             
             <div class="modal-footer">
                 <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
-                <input type="hidden" name="_subject" id="email-subject" value="Apply Job">
+                <input type="hidden" name="_subject" id="subject" value="Apply Job">
                 <button type="submit" class="btn btn-primary w-100">Send</button>
             </div>
         </form>
     </div>
 </div>
 </div>
+
+<script>
+
+var exampleModal = document.getElementById('apply')
+exampleModal.addEventListener('show.bs.modal', function (event) {
+  // Button that triggered the modal
+  var button = event.relatedTarget
+  // Extract info from data-bs-* attributes
+  var recipient = button.getAttribute('data-bs-whatever')
+  // If necessary, you could initiate an AJAX request here
+  // and then do the updating in a callback.
+  //
+  // Update the modal's content.
+  var modalTitle = exampleModal.querySelector('.modal-title')
+  var modalBodyInput = exampleModal.querySelector('.modal-footer #subject')
+
+  modalTitle.textContent = 'Apply Job For ' + recipient
+  modalBodyInput.value = 'Apply Job For ' + recipient
+})
+</script>

@@ -26,7 +26,7 @@
               {{end}}
               {{ with .button }}
                 {{ if .enable }}
-                <a href="{{ .link }}"  class="btn btn-primary d-sm-inline-block hover-ripple mx-auo" {{ if .popup }} data-bs-toggle="modal" data-bs-target="{{ .link }}"{{end}}>{{ .label }}</a>
+                <a href="{{ .link }}"  class="btn btn-primary d-sm-inline-block hover-ripple mx-auo" {{ if .popup }} data-bs-toggle="modal" data-bs-target="{{ .link }}"{{end}} data-bs-whatever="{{ $maintitle }}">{{ .label }} </a>
               {{end}}
               {{end}}
           </div>
@@ -71,7 +71,7 @@
                           {{ with .button }}
                             {{ if .enable }}
                               <div class="col-12 align-items-right d-flex justify-content-end">
-                                <a href="{{ .link }}"  class="btn btn-primary d-inline-block hover-ripple" {{ if .popup }} data-bs-toggle="modal" data-bs-target="{{ .link }}"{{end}}>{{ .label }}</a>
+                                <a href="{{ .link }}"  class="btn btn-primary d-inline-block hover-ripple" {{ if .popup }} data-bs-toggle="modal" data-bs-target="{{ .link }}"{{end}} >{{ .label }}</a>
                                 
                               </div>
                             {{ end }}

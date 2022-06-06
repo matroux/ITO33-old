@@ -59,6 +59,26 @@ widgets:
           link: "#"
           label: Implied Probability of Bail-In
           external: 
+        - image: /images/article-1.png
+          title: Implied Probability of Bail-In
+          link: "#"
+          label: Implied Probability of Bail-In
+          external: 
+        - image: /images/article-2.png
+          title: Implied Probability of Bail-In
+          link: "#"
+          label: Implied Probability of Bail-In
+          external: 
+        - image: /images/article-2.png
+          title: Implied Probability of Bail-In
+          link: "#"
+          label: Implied Probability of Bail-In
+          external: 
+        - image: /images/article-2.png
+          title: Implied Probability of Bail-In
+          link: "#"
+          label: Implied Probability of Bail-In
+          external: 
       - title: Video
         subtitle: lorem ipsum subtitle 
         button:
@@ -67,6 +87,26 @@ widgets:
           popup: 
           link: "/article/"
         card:
+        - vimeo: "103286163"
+          title: Implied Probability of Bail-In
+          link: "#"
+          label: Implied Probability of Bail-In
+          external: 
+        - youtube: "i3IlVCKl3dA"
+          title: Implied Probability of Bail-In
+          link: "#"
+          label: Implied Probability of Bail-In
+          external: 
+        - youtube: "i3IlVCKl3dA"
+          title: Implied Probability of Bail-In
+          link: "#"
+          label: Implied Probability of Bail-In
+          external: 
+        - youtube: "i3IlVCKl3dA"
+          title: Implied Probability of Bail-In
+          link: "#"
+          label: Implied Probability of Bail-In
+          external:
         - vimeo: "103286163"
           title: Implied Probability of Bail-In
           link: "#"
