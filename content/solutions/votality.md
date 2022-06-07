@@ -42,7 +42,7 @@ widgets:
 
         image: images/Cocobanking.jpg
         subtitle: ''
-        title: ' Opscore consists of three components:'
+        title: 'We can help you price the following instruments:'
         button:
           enable: "true"
           label: "Request a Demo"
@@ -54,15 +54,26 @@ widgets:
       - title: VARIANCE SWAPS
         subtitle: 'Volatility Management'
         content: >-
-         Opscore is our complete front-office solution for the pricing, hedging and analysis of convertible securities. According to Sheen Kassouf and Edward Thorp              (co-authors of Beat the Market), a convertible security is “any security that may be exchanged for common stock”. In addition to warrants, Kassouf and Thorp's            classification includes convertible bonds, convertible preferred stocks, calls, stock rights and stock options. Opscore consists of three components:
+         The variance swap is an equity derivative with payoff the realized variance of the underlying equity or index. The Black-Scholes-Merton tradition of                    continuous delta hedging under diffusion confuses it with the log contract. As a consequence, it suggests the variance swap is redundant with the vanilla              options. What the variance swap truly is, however, over and above the vanillas, is a play on the possible underlying jumps. We believe variance swaps mark a            new age in volatility arbitrage. For this reason, we price them from scratch, independently of the diffusion assumption or even the idea that vanilla options          may have ever been a play on variance:
 
-           The clauses of convertible securities can be so complex that their accurate treatment not only necessitates pricing engines as evolved as ours, but also                 requires referring to the prospectus as the only reliable and complete source of information.
+          We price the variance swaps under our generalized jump-diffusion model with stochastic volatility and stochastic jumps, also known as the “regime-switching             model.”
+          We also price the log contract. This way, you can measure the difference due to the jumps.
+          It doesn't matter whether jumps (in the equity or the index) have been known to occur or not to occur in the past. (A jump to default couldn't have occurred           in the past.) What matters is whether the market anticipates such jumps.
+          The empirical disconnect between the market price of the variance swap and the theoretical price of the log contract (a.k.a. the strip of vanillas), apparent           even on the index, points in that direction.
+          We even calibrate the regime-switching model against the market prices of variance swaps of different starting dates and maturity dates, independently of the           vanillas. Indeed, the variance swap is not redundant with the vanillas and its price carries additional information on the underlying process (as does the             price of any path-dependent option, generally).
+          People should be suspicious, anyway, of any methodology that is incapable of valuing an instrument as natural and simple and homogeneous as the variance swap           directly and says it requires a full strip of known vanilla options prices in order to do so!
+          On top of vanilla variance swaps, our all-numerical solving techniques enable us to price the following payoffs:
+          •	volatility swaps
+          •	capped volatility and variance swaps
+          •	gamma swaps
+          •	corridor variance swaps
+          •	up and down corridor variance swaps
+          •	conditional variance swaps
+          •	variance options
+          •	variance swaptions
+          
+          All this is achieved in our general equity-to-credit framework, of which dividends and default risk are an integral part.
 
-            For this reason, we maintain a continuously evolving database schema for the terms and conditions of convertible securities. Each time we add a new feature             to our pricing engine (after some newly released prospectus), we release the updates of both the pricing engine and the data model.
-
-            Terms and conditions can be edited through a graphical user interface, as shown in Figure 1, and stored in the database. The user can also create and                   define terms and conditions for new issues of convertible securities.
-
-            The data model of Opscore covers convertible bonds, mandatories, equity options and CB callable asset swaps as shown in Figure 2. Terms and conditions of               credit default swaps (CDS) are also handled, as they are needed for the calibration of the default component of the equity-to-credit process.
         button:
           enable: ""
           label: "Request a Demo" 
