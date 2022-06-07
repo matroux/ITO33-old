@@ -26,10 +26,8 @@ widgets:
       - bg_image: images/backgrounds/about-us-bg.webp
         content: >-
          <i class="fa fa-check"></i> Vanilla options and volatility surfaces
-    
-
+ 
          <i class="fa fa-check"></i> Equity to Credit instruments: Bonds, Convertible Bonds, Contingent Conversion Bonds (CoCos), CDS, EDS, Credit Event Binary Options
-
 
          <i class="fa fa-check"></i> Barrier options n
          
@@ -41,10 +39,9 @@ widgets:
          
          <i class="fa fa-check"></i> VIX futures and VIX options
          
-          <i class="fa fa-check"></i> Dividend swaps
+         <i class="fa fa-check"></i> Dividend swaps
           
-          <i class="fa fa-check"></i> Gap options
-
+         <i class="fa fa-check"></i> Gap options
 
 
         image: images/Cocobanking.jpg
