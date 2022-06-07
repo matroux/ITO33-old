@@ -27,9 +27,9 @@ widgets:
         content: >-
          <i class="fa fa-check"></i> Vanilla options and volatility surfaces
  
-         <i class="fa fa-check"></i> Equity to Credit instruments: Bonds, Convertible Bonds, Contingent Conversion Bonds (CoCos), CDS, EDS, Credit Event Binary Options
+         <i class="fa fa-check"></i> Equity to Credit instruments, Bonds, Convertible Bonds, Contingent Conversion Bonds (CoCos), CDS, EDS, Credit Event Binary Options
 
-         <i class="fa fa-check"></i> Barrier options n
+         <i class="fa fa-check"></i> Barrier options
          
          <i class="fa fa-check"></i> Digital options
          
