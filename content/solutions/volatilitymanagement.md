@@ -28,7 +28,7 @@ widgets:
          <i class="fa fa-check"></i> Vanilla options and volatility surfaces 
  
  
-         <i class="fa fa-check"></i>Equity to Credit instruments, Bonds, Convertible Bonds, Contingent Conversion Bonds (CoCos), CDS, EDS, Credit Event Binary Options
+         <i class="fa fa-check"></i> Equity to Credit instruments, Bonds, Convertible Bonds, Contingent Conversion Bonds (CoCos), CDS, EDS, Credit Event Binary Options
 
 
          <i class="fa fa-check"></i> Barrier options 
@@ -71,12 +71,23 @@ widgets:
                  We even calibrate the regime-switching model against the market prices of variance swaps of different starting dates and maturity dates, independently                  of the vanillas. Indeed, the variance swap is not redundant with the vanillas and its price carries additional information on the underlying process                    (as does the price of any path-dependent option, generally).
                  People should be suspicious, anyway, of any methodology that is incapable of valuing an instrument as natural and simple and homogeneous as the                        variance swap directly and says it requires a full strip of known vanilla options prices in order to do so!
                  On top of vanilla variance swaps, our all-numerical solving techniques enable us to price the following payoffs:
-         
+                 
+                     <ul><li> volatility swaps </li>
+                     <li> capped volatility and variance swaps </li>
+                      <li> 	gamma swaps </li>
+                      <li> 	corridor variance swaps </li>
+                      <li> 	up and down corridor variance swaps </li>
+                      <li> 	conditional variance swaps </li>
+                      <li> 	variance options </li>
+                      <li> 	variance swaptions </li> </ul>
+          
+                  All this is achieved in our general equity-to-credit framework, of which dividends and default risk are an integral part.
+
         button:
           enable: ""
           label: "Request a Demo" 
           link: ""
-      - title: PRICING ENGINE
+      - title: EQUITY TO CREDIT
         subtitle: ''
         content: >-
          This is the heart of Opscore and the core of our expertise. The pricing engine is the numerical solver of the equity-to-credit Partial Differential Equations           (PDE) with the terms and conditions of the given derivative instrument acting as boundary conditions. Our implementation relies on the most advanced finite              difference schemes. These schemes include computational grids that adapt in order to best capture the events, whether in time or space, that occur during              the lifetime of the specific instrument.
