@@ -27,7 +27,9 @@ widgets:
         content: >-
          <i class="fa fa-check"></i> Vanilla options and volatility surfaces 
  
+ 
          <i class="fa fa-check"></i>Equity to Credit instruments, Bonds, Convertible Bonds, Contingent Conversion Bonds (CoCos), CDS, EDS, Credit Event Binary Options
+
 
          <i class="fa fa-check"></i> Barrier options 
          
@@ -62,8 +64,14 @@ widgets:
       - title: VARIANCE SWAPS
         subtitle: 'Volatility Management'
         content: >-
-                 The variance swap is an equity derivative with payoff the realized variance of the underlying equity or index. The Black-Scholes-Merton tradition of                    
-
+                 The variance swap is an equity derivative with payoff the realized variance of the underlying equity or index. The Black-Scholes-Merton tradition of                    We price the variance swaps under our generalized jump-diffusion model with stochastic volatility and stochastic jumps, also known as the “regime-                      switching model.”
+                 We also price the log contract. This way, you can measure the difference due to the jumps.
+                 It doesn't matter whether jumps (in the equity or the index) have been known to occur or not to occur in the past. (A jump to default couldn't have                    occurred in the past.) What matters is whether the market anticipates such jumps.
+                 The empirical disconnect between the market price of the variance swap and the theoretical price of the log contract (a.k.a. the strip of vanillas),                    apparent even on the index, points in that direction.
+                 We even calibrate the regime-switching model against the market prices of variance swaps of different starting dates and maturity dates, independently                  of the vanillas. Indeed, the variance swap is not redundant with the vanillas and its price carries additional information on the underlying process                    (as does the price of any path-dependent option, generally).
+                 People should be suspicious, anyway, of any methodology that is incapable of valuing an instrument as natural and simple and homogeneous as the                        variance swap directly and says it requires a full strip of known vanilla options prices in order to do so!
+                 On top of vanilla variance swaps, our all-numerical solving techniques enable us to price the following payoffs:
+         
         button:
           enable: ""
           label: "Request a Demo" 
