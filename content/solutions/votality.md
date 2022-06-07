@@ -31,7 +31,7 @@ widgets:
          <i class="fa fa-check"></i> Equity to Credit instruments: Bonds, Convertible Bonds, Contingent Conversion Bonds (CoCos), CDS, EDS, Credit Event Binary Options
 
 
-         <i class="fa fa-check"></i> Barrier options
+         <i class="fa fa-check"></i> Barrier options n
          
          <i class="fa fa-check"></i> Digital options
          
@@ -101,26 +101,6 @@ widgets:
                   <b> SOLVING THE EQUITY-TO-CREDIT PROBLEM </b>
                   The Equity-to-Credit problem, as we understand it and handle it, is the problem of pricing and hedging of single name equity derivatives and credit                      derivatives when the issuer of the underlying equity is subject to default (or credit risk). Posing the problem means specifying the stochastic                        process followed by the underlying equity (typically, it is a jump-diffusion process where the diffusion, or Brownian component, admits of                              stochastic volatility and the jump component is a sum of Poisson jump processes with stochastic intensity and jump sizes, notable among which is the                    jump to default).
           
-        button:
-          enable: ""
-          label: "Request a Demo" 
-          link: ""
-      - title: EXCEL FRONT END
-        subtitle: ''
-        content: >-
-             <ul><li>Using Microsoft Office Automation, the user can export all the terms and conditions of the convertible security from the Opscore data model to                  the Opscore Excel Analyzer. Several theoretical models can be defined and simulated on this worksheet. 3D surfaces of theoretical values and Greeks can                 be instantaneously plotted. More generally, every single output can be plotted as a function of every single input. This is achieved by the VBA                         routines of the Opscore Excel Analyzer, which, in turn, call the DLL of the pricing engine; moreover, the user can simulate terms and conditions                        different from the ones that are stored in the Opscore database, without affecting the stored data.</li>
-               <li> Alternatively, users can build their own Excel spreadsheet, laying out the results of the pricing engine any way they please thanks to the Opscore                 XLL functions. The Opscore XLLs accept the identification number of the given security (its internal database code, ISIN, CUSIP, Bloomberg number or                   SEDOL) as an argument. This allows the XLLs to retrieve the corresponding terms and conditions from the Opscore database. The remaining arguments are                   the theoretical parameters (such as Brownian volatility and hazard rate). They are produced on the spreadsheet, either by calibration routines or by                    direct user input.</li></ul>
-        beforeText: >-
-          Since Excel is probably the most popular front end among traders and hedge fund managers, we made sure that all the results of Opscore are published to                  Excel. There are two ways the user may view these results:
-        gallery:
-        - image: "/images/spread.png"
-          title: ""
-        - image: "/images/model.png"
-          title: ""
-        button:
-          enable: "true"
-          label: "Request a Demo"
-          link: "#requestdemo"
-          popup: "true"
+      
         afterText: >-
 ---
