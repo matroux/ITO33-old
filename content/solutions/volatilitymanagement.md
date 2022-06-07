@@ -1,5 +1,5 @@
 ---
-title: Opscore
+title: Volatility Management
 image: "/images/solutions.jpg"
 topInfo:
   enable: true
@@ -8,14 +8,14 @@ topInfo:
   list:
   - text: Solutions
     link: "/solutions/"
-  - text: Opscore
+  - text: Volatility Management
     link: "#"
 widgets:
   before:
     - enable: true
       type: solutions
       title: >-
-        The Convertible Bond Pricing Solution   
+        The Equity Derivatives Pricing Expert 
       subtitle: A complete front-office solution for the pricing, hedging and analysis 
     - enable: true
       class: pt-5 c0l-12  bg-half mb-5
