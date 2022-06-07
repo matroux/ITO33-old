@@ -48,7 +48,7 @@ solutions:
 
   btn:
   - text: Explore
-    url: "#"
+    url: "solutions/cococ33/"
   - text: Request a Demo
     url: "#requestdemo"
     popup: "true"
