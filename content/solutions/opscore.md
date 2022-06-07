@@ -32,7 +32,7 @@ widgets:
 
 
          <i class="fa fa-check"></i> EXCEL FRONT END       
-        image: images/Cocobanking.jpg
+        image: images/frontend.JPG
         subtitle: ''
         title: ' Opscore consists of three components:'
         button:
