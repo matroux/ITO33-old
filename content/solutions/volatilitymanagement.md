@@ -63,15 +63,7 @@ widgets:
       lists:
       - title: VARIANCE SWAPS
         subtitle: 'Volatility Management'
-        content: >-
-                     <ul><li> volatility swaps </li>
-                     <li> capped volatility and variance swaps </li>
-                      <li> 	gamma swaps </li>
-                      <li> 	corridor variance swaps </li>
-                      <li> 	up and down corridor variance swaps </li>
-                      <li> 	conditional variance swaps </li>
-                      <li> 	variance options </li>
-                      <li> 	variance swaptions </li> </ul>
+        content: >-   
                  The variance swap is an equity derivative with payoff the realized variance of the underlying equity or index. The Black-Scholes-Merton tradition of                    We price the variance swaps under our generalized jump-diffusion model with stochastic volatility and stochastic jumps, also known as the “regime-                      switching model.”
                  We also price the log contract. This way, you can measure the difference due to the jumps.
                  It doesn't matter whether jumps (in the equity or the index) have been known to occur or not to occur in the past. (A jump to default couldn't have                    occurred in the past.) What matters is whether the market anticipates such jumps.
