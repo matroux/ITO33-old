@@ -1,5 +1,5 @@
 ---
-title: Volatility Management 
+title: Volatility Management 2
 image: "/images/solutions.jpg"
 topInfo:
   enable: true
