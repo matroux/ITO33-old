@@ -1,5 +1,5 @@
 ---
-title: Opscore
+title: Opscore 2
 image: "/images/solutions.jpg"
 topInfo:
   enable: true
@@ -79,9 +79,9 @@ widgets:
         beforeText: >-
           Since Excel is probably the most popular front end among traders and hedge fund managers, we made sure that all the results of Opscore are published to                  Excel. There are two ways the user may view these results:
         gallery:
-        - image: "/images/spread.png"
+        - image: "/images/frontendgrid.JPG"
           title: ""
-        - image: "/images/model.png"
+        - image: "/images/frontendplot.JPG"
           title: ""
         button:
           enable: "true"
