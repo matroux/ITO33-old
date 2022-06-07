@@ -25,11 +25,11 @@ widgets:
       bannerItem:
       - bg_image: images/backgrounds/about-us-bg.webp
         content: >-
-         <i class="fa fa-check"></i> Vanilla options and volatility surfaces
+         <i class="fa fa-check"> Vanilla options and volatility surfaces </i>
  
-         <i class="fa fa-check"></i> Equity to Credit instruments, Bonds, Convertible Bonds, Contingent Conversion Bonds (CoCos), CDS, EDS, Credit Event Binary Options
-
-         <i class="fa fa-check"></i> Barrier options
+         <i class="fa fa-check">Equity to Credit instruments, Bonds, Convertible Bonds, Contingent Conversion Bonds (CoCos), CDS, EDS, Credit Event Binary Options
+</i> 
+         <i class="fa fa-check"> Barrier options </i>
          
          <i class="fa fa-check"></i> Digital options
          
