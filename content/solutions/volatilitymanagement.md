@@ -25,13 +25,24 @@ widgets:
       bannerItem:
       - bg_image: images/backgrounds/about-us-bg.webp
         content: >-
-         <i class="fa fa-check"></i> DATA MODEL OF TERMS AND CONDITIONS    
+         <i class="fa fa-check"></i> Vanilla options and volatility surfaces
+ 
+         <i class="fa fa-check"></i> Equity to Credit instruments, Bonds, Convertible Bonds, Contingent Conversion Bonds (CoCos), CDS, EDS, Credit Event Binary Options
 
-
-         <i class="fa fa-check"></i> PRICING ENGINE   
-
-
-         <i class="fa fa-check"></i> EXCEL FRONT END       
+         <i class="fa fa-check"></i> Barrier options
+         
+         <i class="fa fa-check"></i> Digital options
+         
+         <i class="fa fa-check"></i> Forward starting options
+         
+         <i class="fa fa-check"></i> Variance swaps and option on variance
+         
+         <i class="fa fa-check"></i> VIX futures and VIX options
+         
+         <i class="fa fa-check"></i> Dividend swaps
+          
+         <i class="fa fa-check"></i> Gap options
+    
         image: images/Cocobanking.jpg
         subtitle: ''
         title: ' Supported Instruments'
