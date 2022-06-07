@@ -16,7 +16,7 @@ widgets:
       type: solutions
       title: >-
            The Equity Derivatives Pricing Expert 
-      subtitle: A complete front-office solution for the pricing, hedging and analysis 
+      subtitle: 
     - enable: true
       class: pt-5 c0l-12  bg-half mb-5
       type: banner
@@ -34,7 +34,7 @@ widgets:
          <i class="fa fa-check"></i> EXCEL FRONT END       
         image: images/Cocobanking.jpg
         subtitle: ''
-        title: ' Opscore consists of three components:'
+        title: ' Supported Instruments'
         button:
           enable: "true"
           label: "Request a Demo"
