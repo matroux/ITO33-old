@@ -58,26 +58,26 @@ widgets:
       - title: VARIANCE SWAPS
         subtitle: 'Volatility Management'
         content: >-
-         The variance swap is an equity derivative with payoff the realized variance of the underlying equity or index. The Black-Scholes-Merton tradition of                    continuous delta hedging under diffusion confuses it with the log contract. As a consequence, it suggests the variance swap is redundant with the vanilla              options. What the variance swap truly is, however, over and above the vanillas, is a play on the possible underlying jumps. We believe variance swaps mark a            new age in volatility arbitrage. For this reason, we price them from scratch, independently of the diffusion assumption or even the idea that vanilla options          may have ever been a play on variance:
+             The variance swap is an equity derivative with payoff the realized variance of the underlying equity or index. The Black-Scholes-Merton tradition of                    continuous delta hedging under diffusion confuses it with the log contract. As a consequence, it suggests the variance swap is redundant with the vanilla              options. What the variance swap truly is, however, over and above the vanillas, is a play on the possible underlying jumps. We believe variance swaps mark              a new age in volatility arbitrage. For this reason, we price them from scratch, independently of the diffusion assumption or even the idea that vanilla                options may have ever been a play on variance:
 
-          We price the variance swaps under our generalized jump-diffusion model with stochastic volatility and stochastic jumps, also known as the “regime-switching             model.”
-          We also price the log contract. This way, you can measure the difference due to the jumps.
-          It doesn't matter whether jumps (in the equity or the index) have been known to occur or not to occur in the past. (A jump to default couldn't have occurred           in the past.) What matters is whether the market anticipates such jumps.
-          The empirical disconnect between the market price of the variance swap and the theoretical price of the log contract (a.k.a. the strip of vanillas), apparent           even on the index, points in that direction.
-          We even calibrate the regime-switching model against the market prices of variance swaps of different starting dates and maturity dates, independently of the           vanillas. Indeed, the variance swap is not redundant with the vanillas and its price carries additional information on the underlying process (as does the             price of any path-dependent option, generally).
-          People should be suspicious, anyway, of any methodology that is incapable of valuing an instrument as natural and simple and homogeneous as the variance swap           directly and says it requires a full strip of known vanilla options prices in order to do so!
-          On top of vanilla variance swaps, our all-numerical solving techniques enable us to price the following payoffs:
+             We price the variance swaps under our generalized jump-diffusion model with stochastic volatility and stochastic jumps, also known as the “regime-                      switching model.”
+             We also price the log contract. This way, you can measure the difference due to the jumps.
+             It doesn't matter whether jumps (in the equity or the index) have been known to occur or not to occur in the past. (A jump to default couldn't have                    occurred in the past.) What matters is whether the market anticipates such jumps.
+             The empirical disconnect between the market price of the variance swap and the theoretical price of the log contract (a.k.a. the strip of vanillas),                    apparent even on the index, points in that direction.
+             We even calibrate the regime-switching model against the market prices of variance swaps of different starting dates and maturity dates, independently of              the vanillas. Indeed, the variance swap is not redundant with the vanillas and its price carries additional information on the underlying process (as does              the price of any path-dependent option, generally).
+             People should be suspicious, anyway, of any methodology that is incapable of valuing an instrument as natural and simple and homogeneous as the variance                swap directly and says it requires a full strip of known vanilla options prices in order to do so!
+             On top of vanilla variance swaps, our all-numerical solving techniques enable us to price the following payoffs:
          
-          <ul><li> volatility swaps </li>
-          <li> capped volatility and variance swaps </li>
-          <li> 	gamma swaps </li>
-          <li> 	corridor variance swaps </li>
-          <li> 	up and down corridor variance swaps </li>
-          <li> 	conditional variance swaps </li>
-          <li> 	variance options </li>
-          <li> 	variance swaptions </li> </ul>
+             <ul><li> volatility swaps </li>
+             <li> capped volatility and variance swaps </li>
+             <li> 	gamma swaps </li>
+             <li> 	corridor variance swaps </li>
+             <li> 	up and down corridor variance swaps </li>
+             <li> 	conditional variance swaps </li>
+             <li> 	variance options </li>
+             <li> 	variance swaptions </li> </ul>
           
-          All this is achieved in our general equity-to-credit framework, of which dividends and default risk are an integral part.
+             All this is achieved in our general equity-to-credit framework, of which dividends and default risk are an integral part.
 
         button:
           enable: ""
@@ -86,17 +86,16 @@ widgets:
       - title: EQUITY TO CREDIT
         subtitle: ''
         content: >-
-           Equity-to-Credit is the new form of volatility arbitrage. Credit risk (through the probability of the underlying equity jumping to zero) adds a component to            option premium that cannot be financed by the usual rebalancing of the delta hedge issuing from the Black-Scholes-Merton model. Another hedging instrument              has to be held and continuously traded in order to hedge the jump to default. Jointly inferring the Brownian volatility and the hazard rate from the market            data of instruments sensitive both to volatility and credit risk (equity options, CDS) and computing the composite dynamic hedging strategy are the new rule            of volatility arbitrage.
+               Equity-to-Credit is the new form of volatility arbitrage. Credit risk (through the probability of the underlying equity jumping to zero) adds a                        component to option premium that cannot be financed by the usual rebalancing of the delta hedge issuing from the Black-Scholes-Merton model. Another                    hedging instrument has to be held and continuously traded in order to hedge the jump to default. Jointly inferring the Brownian volatility and the                      hazard rate from the market data of instruments sensitive both to volatility and credit risk (equity options, CDS) and computing the composite                          dynamic hedging strategy are the new rule of volatility arbitrage.
           
-            THE EQUITY-TO-CREDIT PARADIGM 
-            
-            The equity-to-credit paradigm is born from the recognition that credit dependent instruments, starting with standard corporate bonds, have an embedded                  equity component which results from the high correlation between the credit standing of an issuer and its stock price. With corporate default of big                    companies looming large in the last few years, investors have been stunned by the collapse of the famed bond floor of convertible bonds. It is now well                recognized that the credit component must be hedged with other standard instruments such as CDS or out of the money puts. More generally, equity and                    credit instruments should be priced and hedged in a unique consistent framework, which is the essence of the equity-to-credit paradigm.
-             This creates both institutional and technical problems for market participants. Banks have traditionally traded their equity and credit portfolios in                  separate divisions which cannot cross-hedge their related exposures. Slowly and gradually, they are understanding that they need to merge the various                  desks which deal with the same issuer.
-             Hedge funds have taken advantage of the institutional rigidity of banks; they have been the first to benefit from this new paradigm by investing in                    strategies which aim to arbitrage inconsistencies between the credit and the equity markets. But as more money is flowing into these strategies,                        obvious opportunities disappear and accurate modelling becomes essential. Traders have so far relied on software and models which are good at pricing                  one family of instruments but fail to deal consistently with the entire equity-to-credit spectrum. This is an issue for both pre-trade analysis and                    risk management.
+               THE EQUITY-TO-CREDIT PARADIGM 
+               The equity-to-credit paradigm is born from the recognition that credit dependent instruments, starting with standard corporate bonds, have an                          embedded equity component which results from the high correlation between the credit standing of an issuer and its stock price. With corporate default                  of big companies looming large in the last few years, investors have been stunned by the collapse of the famed bond floor of convertible bonds. It is                  now well recognized that the credit component must be hedged with other standard instruments such as CDS or out of the money puts. More generally,                      equity and credit instruments should be priced and hedged in a unique consistent framework, which is the essence of the equity-to-credit paradigm.
+               This creates both institutional and technical problems for market participants. Banks have traditionally traded their equity and credit portfolios in                  separate divisions which cannot cross-hedge their related exposures. Slowly and gradually, they are understanding that they need to merge the various                  desks which deal with the same issuer.
+               Hedge funds have taken advantage of the institutional rigidity of banks; they have been the first to benefit from this new paradigm by investing in                    strategies which aim to arbitrage inconsistencies between the credit and the equity markets. But as more money is flowing into these strategies,                        obvious opportunities disappear and accurate modelling becomes essential. Traders have so far relied on software and models which are good at pricing                  one family of instruments but fail to deal consistently with the entire equity-to-credit spectrum. This is an issue for both pre-trade analysis and                    risk management.
                  
 
-                  <b> SOLVING THE EQUITY-TO-CREDIT PROBLEM </b>
-                  The Equity-to-Credit problem, as we understand it and handle it, is the problem of pricing and hedging of single name equity derivatives and credit                      derivatives when the issuer of the underlying equity is subject to default (or credit risk). Posing the problem means specifying the stochastic                        process followed by the underlying equity (typically, it is a jump-diffusion process where the diffusion, or Brownian component, admits of                              stochastic volatility and the jump component is a sum of Poisson jump processes with stochastic intensity and jump sizes, notable among which is the                    jump to default).
+               SOLVING THE EQUITY-TO-CREDIT PROBLEM
+               The Equity-to-Credit problem, as we understand it and handle it, is the problem of pricing and hedging of single name equity derivatives and credit                    derivatives when the issuer of the underlying equity is subject to default (or credit risk). Posing the problem means specifying the stochastic                        process followed by the underlying equity (typically, it is a jump-diffusion process where the diffusion, or Brownian component, admits of                              stochastic volatility and the jump component is a sum of Poisson jump processes with stochastic intensity and jump sizes, notable among which is the                    jump to default).
             button:
           enable: ""
           label: "Request a Demo" 
