@@ -31,12 +31,13 @@ widgets:
          <i class="fa fa-check"></i> Equity to Credit instruments: Bonds, Convertible Bonds, Contingent Conversion Bonds (CoCos), CDS, EDS, Credit Event Binary Options
 
 
-         <i class="fa fa-check"></i> Barrier options, Digital options, Forward starting options
-
-
-         <i class="fa fa-check"></i> Variance swaps and option on variance,	VIX futures and VIX options
-
-          <i class="fa fa-check"></i> Dividend swaps, Gap options
+         <i class="fa fa-check"></i> Barrier options
+         <i class="fa fa-check"></i> Digital options
+         <i class="fa fa-check"></i> Forward starting options
+         <i class="fa fa-check"></i> Variance swaps and option on variance
+         <i class="fa fa-check"></i> VIX futures and VIX options
+          <i class="fa fa-check"></i> Dividend swaps
+          <i class="fa fa-check"></i> Gap options
 
 
 
@@ -63,14 +64,15 @@ widgets:
           We even calibrate the regime-switching model against the market prices of variance swaps of different starting dates and maturity dates, independently of the           vanillas. Indeed, the variance swap is not redundant with the vanillas and its price carries additional information on the underlying process (as does the             price of any path-dependent option, generally).
           People should be suspicious, anyway, of any methodology that is incapable of valuing an instrument as natural and simple and homogeneous as the variance swap           directly and says it requires a full strip of known vanilla options prices in order to do so!
           On top of vanilla variance swaps, our all-numerical solving techniques enable us to price the following payoffs:
-          •	volatility swaps
-          •	capped volatility and variance swaps
-          •	gamma swaps
-          •	corridor variance swaps
-          •	up and down corridor variance swaps
-          •	conditional variance swaps
-          •	variance options
-          •	variance swaptions
+         
+          <ul><li> volatility swaps </li>
+          <li> capped volatility and variance swaps </li>
+          <li> 	gamma swaps </li>
+          <li> 	corridor variance swaps </li>
+          <li> 	up and down corridor variance swaps </li>
+          <li> 	conditional variance swaps </li>
+          <li> 	variance options </li>
+          <li> 	variance swaptions </li> </ul>
           
           All this is achieved in our general equity-to-credit framework, of which dividends and default risk are an integral part.
 
