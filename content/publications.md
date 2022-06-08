@@ -88,7 +88,7 @@ widgets:
           link: "/article/"
         card:
         - vimeo: "X30JIXuuwQs"
-          title: The future was the market
+          title: The future was the market vivek
           link: "#"
           label: The future was the market
           external: 

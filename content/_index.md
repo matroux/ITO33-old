@@ -22,5 +22,6 @@ hero:
    FINANCIAL VOLATILITY
   image: /images/hero.jpg
   youTudeID: ""
+ctaImage:  "/images/cta.jpg"
 ---
 

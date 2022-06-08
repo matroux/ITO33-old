@@ -74,10 +74,11 @@
                         <a href="{{ .link }}"  class="btn btn-primary d-block d-sm-inline-block hover-ripple" {{ if .popup }} data-bs-toggle="modal" data-bs-target="{{ .link }}"{{end}}>{{ .label }}</a>
                     </div>
                 </div> -->
-
-                <div id="loadMore{{$i}}"  class="text-center" style="">
+                <div class="col text-center my-4">
+                <span id="loadMore{{$i}}"  class="text-center mx-auto" style="">
                     <a href="#" class="btn btn-primary d-block d-sm-inline-block hover-ripple">Load More</a>
-                 </div>
+                </span>
+                </div>
             {{end}}
 
              

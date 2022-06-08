@@ -4,9 +4,10 @@ desc: "WE PROVIDE THE SOLUTION FOR ASSET MANAGEMENT"
 slug: "solutions/"
 image: "/images/solutions.jpg"
 widgets:
-  before:
+  before: 
     - enable: true
       type: solutions
+      section: solutions
       title: >-
         Evolve in today's ever-changing    
 
