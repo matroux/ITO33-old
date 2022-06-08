@@ -6,7 +6,7 @@ image: "/images/solutions.jpg"
 widgets:
   before: 
     - enable: true
-      type: solutions
+      type: section
       section: solutions
       title: >-
         Evolve in today's ever-changing    
