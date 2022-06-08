@@ -33,3 +33,31 @@
       </div>
 </section>
 {{end}}
+
+{{ with .Site.GetPage "section" "solutions" }}
+{{ range $index, $ele := .Data.Pages }}
+<section class="section solutions {{if not (modBool $index 2)}} dark-bg {{end}}" style="{{if not (modBool $index 2)}} background: #97BED6 {{end}}">
+    <div class="container">
+        <div class="row featurette1 align-items-center">
+            <div class="col-md-5 {{if not (modBool $index 2)}} order-md-2 offset-1 {{end}} ">
+              <img src="{{.Params.productImage}}" alt="{{.Title}}" class="img-fluid">      
+            </div>
+
+            <div class="col-md-6  {{if not (modBool $index 2)}} order-md-1 {{else}} offset-md-1 {{end}}">
+                <h3>{{.Title}}</h3>
+                <h2 class="featurette-heading1 ">                  
+                    {{.Params.subtitle}}
+                </h2>
+              <p class="lead">{{.Description}}</p>
+              <div class="btn-container">
+                <a href="{{.Permalink}}" class="btn  btn-primary  mr-2">Explore</a>
+
+                  <a href="#" class="btn btn-outline-primary  mr-2" data-bs-toggle="modal" data-bs-target="#requestdemo"> Request a Demo</a>
+
+              </div>
+            </div>
+          </div>
+      </div>
+</section>
+{{end}}
+{{end}}
