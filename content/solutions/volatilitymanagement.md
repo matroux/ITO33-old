@@ -85,8 +85,8 @@ widgets:
       - title: EQUITY TO CREDIT
         subtitle: ''
         content: >-
-                  Equity-to-Credit is the new form of volatility arbitrage. Credit risk (through the probability of the underlying equity jumping to zero) adds a                        component to option premium that cannot be financed by the usual rebalancing of the delta hedge issuing from the Black-Scholes-Merton model. Another                    hedging instrument has to be held and continuously traded in order to hedge the jump to default. Jointly inferring the Brownian volatility and the                      hazard rate from the market data of instruments sensitive both to volatility and credit risk (equity options, CDS) and computing the composite                          dynamic hedging strategy are the new rule of volatility arbitrage.2
-                z
+                  Equity-to-Credit is the new form of volatility arbitrage. Credit risk (through the probability of the underlying equity jumping to zero) adds a                        component to option premium that cannot be financed by the usual rebalancing of the delta hedge issuing from the Black-Scholes-Merton model. Another                    hedging instrument has to be held and continuously traded in order to hedge the jump to default. Jointly inferring the Brownian volatility and the                      hazard rate from the market data of instruments sensitive both to volatility and credit risk (equity options, CDS) and computing the composite                          dynamic hedging strategy are the new rule of volatility arbitrage.2 zzz 
+             
         button:
           enable: ""
           label: "Request a Demo" 
