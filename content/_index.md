@@ -9,11 +9,11 @@ hero:
   image: /images/hero.jpg
   youTudeID: ""
 - heading: | 
-   RELIABILITY-2
+   ACCURACY
   subHeading: |
-   PROVEN EXPERTISE TO WEATHER   
-   FINANCIAL VOLATILITY
-  image: /images/hero.jpg
+   ACCURATE PRICING MODELS DRIVE 
+   INSIGHTFUL DECISION-MAKING   
+  image: /images/beat.jpg
   youTudeID: ""
 - heading: | 
    RELIABILITY-3
