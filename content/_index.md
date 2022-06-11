@@ -16,18 +16,18 @@ hero:
   image: /images/beat.jpg
   youTudeID: ""
 - heading: | 
-   RESPONSIVENESS
-  subHeading: |
-   UNPARALLELED
-   WORLD-CLASS CUSTOMER SUPPORT AND SERVICE
-  image: /images/support.jpg
-  youTudeID: ""
-- heading: | 
    PERFORMANCE
   subHeading: |
    FAST
    SUPERIOR NUMERICS ACHIEVE BEST-IN-CLASS PERFORMANCE
   image: /images/performance.jpg
+  youTudeID: ""
+- heading: | 
+   RESPONSIVENESS
+  subHeading: |
+   UNPARALLELED
+   WORLD-CLASS CUSTOMER SUPPORT AND SERVICE
+  image: /images/support.jpg
   youTudeID: ""
 ctaImage:  "/images/cta.jpg"
 ---
