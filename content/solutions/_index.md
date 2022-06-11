@@ -18,7 +18,7 @@ widgets:
       lists:
       - heading: |
           The Convertible Bond Pricing Solution
-        subheading: OPSCORE
+        subheading: Opscore
         image: "/images/p1.jpg"
         background: ""
         text: |
@@ -35,7 +35,7 @@ widgets:
         image: "/images/coco3.png"
         background: "#97BED6"
         text: |
-          CoCo 33 is a pricing and risk management framework for regulatory capital securities issued by banks following the Basel III
+          CoCo33 is a pricing and risk management framework for regulatory capital securities issued by banks following the Basel III
            capital adequacy requirements. It relies on a powerful equity-to-credit regime switching reduced form model with stochastic bail-in intensities and                    stochastic credit to analyse AT1 CoCo bonds, perpetual non-cumulative preferred shares and Tier 2 bonds issued by banks.
         btn:
         - text: Explore
@@ -46,7 +46,7 @@ widgets:
       - heading: |
           The Equity Derivatives 
           Pricing Expert
-        subheading: VOLATILITY MANAGEMENT
+        subheading: Volatility Management
         image: "/images/volatility.png"
         background: ""
         text: |
