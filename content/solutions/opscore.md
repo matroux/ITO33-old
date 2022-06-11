@@ -1,5 +1,5 @@
 ---
-title: OPSCORE
+title: Opscore
 subtitle: The Convertible Bond  Pricing Solution
 published: "2022-02-18T10:47:55Z"
 description: |
