@@ -1,8 +1,8 @@
 ---
-title: Coco 33
+title: CoCo33
 subtitle: Pricing and Risk Management Framework
 description: |
- CoCo 33 is a pricing and risk management framework for regulatory capital securities issued by banks following the Basel III capital adequacy requirements. It relies on a powerful equity-to-credit regime switching reduced form model with stochastic bail-in intensities and stochastic credit to analyse AT1 CoCo bonds, perpetual non-cumulative preferred shares and Tier 2 bonds issued by banks.
+ CoCo33 is a pricing and risk management framework for regulatory capital securities issued by banks following the Basel III capital adequacy requirements. It relies on a powerful equity-to-credit regime switching reduced form model with stochastic bail-in intensities and stochastic credit to analyse AT1 CoCo bonds, perpetual non-cumulative preferred shares and Tier 2 bonds issued by banks.
 image: "/images/solutions.jpg"
 productImage: "/images/coco3.png"
 topInfo:
@@ -12,7 +12,7 @@ topInfo:
   list:
   - text: Solutions
     link: "/solutions/"
-  - text: Coco 33
+  - text: CoCo33
     link: "#"
 widgets:
   before:
@@ -50,9 +50,9 @@ widgets:
       type: accordian
       lists:
       - title: Overview
-        subtitle: 'CoCo 33'
+        subtitle: 'CoCo33'
         content: >-
-          CoCo 33 is a pricing and risk management framework for regulatory capital securities issued by banks following the Basel III  
+          CoCo33 is a pricing and risk management framework for regulatory capital securities issued by banks following the Basel III  
           
           capital adequacy requirements. It can be extended to cover regulatory capital securities issued by insurance companies 
           according to the Solvency II regulations.    
@@ -61,7 +61,7 @@ widgets:
 
           Once the model for the underlying issuing company is specified, either through calibration or manually, it can be used to evaluate the regulatory securities, to produce hedge ratios or risk parameters, or to analyse various risk scenarios. The product includes a database of terms and conditions and a technology to  serialize and store either the model parameters or the entire environment used in the calibration.    
 
-          CoCo 33 libraries are designed to integrate smoothly into existing risk management or front office systems. Excel add-ins offer an intuitive way to deploy the solution on a desk. A simple and intuitive Excel based utility is provided to test the various functionalities of the product.
+          CoCo33 libraries are designed to integrate smoothly into existing risk management or front office systems. Excel add-ins offer an intuitive way to deploy the solution on a desk. A simple and intuitive Excel based utility is provided to test the various functionalities of the product.
         button:
           enable: ""
           label: "Request a Demo" 
