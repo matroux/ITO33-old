@@ -16,11 +16,18 @@ hero:
   image: /images/beat.jpg
   youTudeID: ""
 - heading: | 
-   RELIABILITY-3
+   RESPONSIVENESS
   subHeading: |
-   PROVEN EXPERTISE TO WEATHER   
-   FINANCIAL VOLATILITY
-  image: /images/hero.jpg
+   UNPARALLELED
+   WORLD-CLASS CUSTOMER SUPPORT AND SERVICE
+  image: /images/support.jpg
+  youTudeID: ""
+- heading: | 
+   PERFORMANCE
+  subHeading: |
+   FAST
+   SUPERIOR NUMERICS ACHIEVE BEST-IN-CLASS PERFORMANCE
+  image: /images/performance.jpg
   youTudeID: ""
 ctaImage:  "/images/cta.jpg"
 ---
