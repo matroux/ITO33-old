@@ -36,7 +36,11 @@
   
       <div class="col mb-5 mb-md-2">
          <h5><a href="/contact-us/" class="nav-link p-0 " > CONTACT US </a> </h5>
-       
+         <ul class="nav flex-column">
+          {{ range .Site.Params.ito33 }}
+            <li class="nav-item mb-2"><a href="{{/contact-us/" }}" class="nav-link p-0 ">{{ContactUs}}</a></li>
+          {{end}}
+        </ul>
       </div>
 
       
