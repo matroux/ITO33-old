@@ -135,7 +135,7 @@ icon = "fab fa-instagram"
   
 [[params.contact]]
   information = ""
-  
+    url = '/contact-us/
 
 [minify.tdewolff.html]
 keepWhitespace = false
