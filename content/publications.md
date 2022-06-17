@@ -27,7 +27,7 @@ widgets:
       class: publications color-text
       title: Publications
       subtitle: >-
-        The following publications will help you navigate through ITO 33 and    
+        The following publications will help you navigate through ITO33 and    
         
         provide information about our activities and events. 
       itemlists:
