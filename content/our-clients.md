@@ -27,8 +27,8 @@ widgets:
       class: our-client
       title: Our Clients
       subtitle: >-
-        ITO 33 has clients spanning the major financial centers of the world. <br>
-        "It is nice to see the ITO 33 team so quick with their turnaround."<br> Large Swiss asset manager with a strong emphasis on convertible bonds"
+        ITO33 has clients spanning the major financial centers of the world. <br>
+        "It is nice to see the ITO33 team so quick with their turnaround."<br> Large Swiss asset manager with a strong emphasis on convertible bonds"
       content: >-
         From New York to Paris, London to Sydney,    
 
@@ -71,12 +71,12 @@ widgets:
         country: Brussels
         name: 
         content: >-
-          "The feeling here regarding the ITO 33 product is very positive on all levels, and we have been impressed with the results; moreover, we have been very pleased with the level of service and response, as we have always been presented with intelligent solutions to our problems and queries. Congratulations!"
+          "The feeling here regarding the ITO33 product is very positive on all levels, and we have been impressed with the results; moreover, we have been very pleased with the level of service and response, as we have always been presented with intelligent solutions to our problems and queries. Congratulations!"
       - flag: /images/swiss.svg
         country: Geneva
         name: Large Swiss asset manager with a strong emphasis on convertible bonds
         content: >-
-          "It is nice to see the ITO 33 team so quick with their turnaround."
+          "It is nice to see the ITO33 team so quick with their turnaround."
       - flag: /images/russia.svg
         country: Moscow
         name: Quant at large Russian bank based in Moscow and London
@@ -91,7 +91,7 @@ widgets:
         country: HongKong
         name: Market Risk Group, First Tier European bank in Hong-Kong
         content: >-
-         "Market Risk has checked ITO 33 for all trades, and the conclusions of the tests are positive. Prices of CBs with soft call, hard call, put, cross currency (quanto) have been checked. Convergence of CBO pricer has been checked. Relevance of prices in degenerate cases has been checked. Analysis of sensitivity has been done. All results were satisfactory."
+         "Market Risk has checked ITO33 for all trades, and the conclusions of the tests are positive. Prices of CBs with soft call, hard call, put, cross currency (quanto) have been checked. Convergence of CBO pricer has been checked. Relevance of prices in degenerate cases has been checked. Analysis of sensitivity has been done. All results were satisfactory."
       - flag: /images/australia.svg
         country: Sydney
         name: Equity Options desk of large Australian bank
