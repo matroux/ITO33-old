@@ -8,6 +8,13 @@ hero:
    FINANCIAL VOLATILITY
   image: /images/hero.jpg
   youTudeID: ""
+  - heading: | 
+   RELIABILITY 
+  subHeading: |
+   WEATHER   
+   FINANCIAL VOLATILITY
+  image: /images/support.jpg
+  youTudeID: ""
 - heading: | 
    ACCURACY
   subHeading: |
