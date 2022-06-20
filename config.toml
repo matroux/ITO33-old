@@ -134,7 +134,7 @@ icon = "fab fa-instagram"
   weight = 4
   
 [[params.contact]]
-  information = ""
+  identifier = ""
   name = 'Contact'
   post = ""
   pre = ""
