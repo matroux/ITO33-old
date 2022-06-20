@@ -8,7 +8,7 @@ hero:
    FINANCIAL VOLATILITY
   image: /images/hero.jpg
   youTudeID: ""
-  - heading: | 
+- heading: | 
    RELIABILITY 
   subHeading: |
    WEATHER   
