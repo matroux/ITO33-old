@@ -63,7 +63,7 @@ icon = "fab fa-instagram"
   name = 'Opscore'
   post = ""
   pre = ""
-  url = '/opscore/'
+  url = 'solutions/opscore/'
   weight = 1
 [[params.footerlink]]
   identifier = 'CoCo33'
