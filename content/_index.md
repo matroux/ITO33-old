@@ -9,11 +9,18 @@ hero:
   image: /images/hero.jpg
   youTudeID: ""
 - heading: | 
-   RELIABILITY 
-  subHeading: |
-   WEATHER   
-   FINANCIAL VOLATILITY
-  image: /images/support.jpg
+   RESPONSIVENESS 
+   subHeading: |
+   UNPARALLELED
+   WORLD-CLASS CUSTOMER SUPPORT AND SERVICE
+   image: /images/support.jpg
+   youTudeID: ""
+- heading: | 
+   BALANCE 
+   subHeading: |
+   EQUITY TO CREDIT SOLUTIONS 
+   WITH JUST THE RIGHT BALANCE
+  image: /images/balance.jpg
   youTudeID: ""
 - heading: | 
    ACCURACY
