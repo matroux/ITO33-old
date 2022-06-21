@@ -70,14 +70,14 @@ icon = "fab fa-instagram"
   name = 'CoCo33'
   post = ""
   pre = ""
-  url = '/coco33/'
+  url = 'solutions/cococ33/'
   weight = 2
 [[params.footerlink]]
   identifier = 'Volatility Management'
   name = 'Volatility Management'
   post = ""
   pre = ""
-  url = '/volatility-management/'
+  url = 'solutions/volatilitymanagement/'
   weight = 3
 
   
