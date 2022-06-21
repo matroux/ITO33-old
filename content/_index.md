@@ -8,6 +8,13 @@ hero:
    FINANCIAL VOLATILITY
   image: /images/hero.jpg
   youTudeID: ""
+ - heading: | 
+   RESPONSIVENESS 
+  subHeading: |
+   UNPARALLELED  
+   WORLD-CLASS CUSTOMER SUPPORT AND SERVICE 
+  image: /images/support.jpg
+  youTudeID: ""
 - heading: | 
    ACCURACY
   subHeading: |
