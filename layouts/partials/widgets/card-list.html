@@ -14,7 +14,7 @@
             </div>
         </div> 
         {{ range $i, $data := .itemlists }}
-            <div class="container {{if ne $i 0}} mt-5 {{end}}">
+            <div class="container {{if ne $i 0}} mt-5 {{end}}" id="{{.title | lower}}">
                 <div class="row">
                     <div class="col d-flex justify-content-between mb-4">
                         <div>

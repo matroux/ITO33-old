@@ -86,22 +86,15 @@ icon = "fab fa-instagram"
   name = 'Articles'
   post = ""
   pre = ""
-  url = '/articles/'
+  url = '/publications/#articles'
   weight = 1
 [[params.publicationslinks]]
   identifier = 'Videos'
   name = 'Videos'
   post = ""
   pre = ""
-  url = '/videos/'
+  url = '/publications/#video'
   weight = 2
-[[params.publicationslinks]]
-  identifier = 'Photos'
-  name = 'Photos'
-  post = ""
-  pre = ""
-  url = '/photos/'
-  weight = 3
 
   
 [[params.ito33]]

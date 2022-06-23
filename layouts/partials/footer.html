@@ -36,6 +36,11 @@
   
       <div class="col mb-5 mb-md-2">
          <h5>CONTACT US</h5>
+         <ul class="nav flex-column">
+          {{ range .Site.Params.contact }}
+            <li class="nav-item mb-2"><a href="{{.url}}" class="nav-link p-0 ">{{.name}}</a></li>
+          {{end}}
+        </ul>
       </div>
 
       
