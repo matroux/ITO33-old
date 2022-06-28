@@ -69,7 +69,8 @@ widgets:
       - title: The Regime Switching Model
         subtitle: ''
         content: >-
-         content coming soon
+         A careful description of the credit process of the issuer is key to model the call feature present in AT1 CoCo bonds or non-cumulative preferred shares, and            therefore also the effective maturity of the instrument. 
+         We use a regime switching model where each regime is a jump diffusion with its own volatility level. In each regime, a jump in the underlying share price may          be due to multiple factors. It could result from a regulatory or a contractual bail-in, or it could be due to default which sends the share price to zero.              Finally a switch between regimes is also associated with a jump in the underlying share price, thereby generating complex correlation patterns between                  volatility, share price, credit and bail-intensities.
         button:
           enable: ""
           label: "Request a Demo" 
