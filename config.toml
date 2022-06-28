@@ -135,6 +135,9 @@ icon = "fab fa-instagram"
   weight = 5
     
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  
 [minify.tdewolff.html]
 keepWhitespace = false
 
