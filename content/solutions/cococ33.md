@@ -78,7 +78,6 @@ widgets:
          We consider up to three relevant CDS term structure: the ISDA 2003 subordinated and senior CDS curve and the ISDA 2014 subordinated curve. In absence of CDS            quotes, standard bond quotes of various maturities can be used to calibrate the credit component of the model.
          The regime switching model has been shown to capture efficiently a large number of derivative instruments in a consistent way, with the same model explaining          both the short term and the long term behaviour of the options and the credit default swaps.
          The conversion of a CoCo bond may be triggered mechanically by a particular CET1 level or it may be forced by the regulator at the point of non viability. We          consider a reduced form model where the bail-in of the CoCo bond is triggered by two Poisson processes whose intensities depends on the credit regime. One              Poisson process corresponds to the contracual bail-in which depends on the CET1 level while the other describes the regulatory bail-in. In a simple two regime          setting, the bail-in intensities in the current good credit state is low while they becomes significant in the bad regime.
-        
          For the perpetual non-cumulative preferred shares issued by North American banks, we only consider the regulatory bail-in since these instruments do not have          a CoCo feature.
         button:
           enable: ""
@@ -91,7 +90,7 @@ widgets:
           <li>The price of the instrument in the second regime, that is if a credit downgrade were to occur instantly.</li>
           <li>The Delta of the model (the first derivative of the price of the instrument with respect to the price of the stock of the underlying issuing  company). It is meaningful for CoCos which convert into equity upon trigger of the bail-in.</li><li>The yield to maturity in case of a T2 bond with finite maturity.</li><li>The yield to next call for a perpetual AT1 bond or a perpetual preferred share.</li><li>The optimal joint hedge ratios on the underlying and a CDS.</li></ul>
         beforeText: >-
-          Once the model has been calibrated to the equity-to-credit universe, CoCo 33 proposes numerous functionalities to analyse the regulatory securities. CoCo 33 currently provides the following outputs for a given capital regulatory instrument:
+          Once the model has been calibrated to the equity-to-credit universe, CoCo33 proposes numerous functionalities to analyse the regulatory securities. CoCo33 currently provides the following outputs for a given capital regulatory instrument:
         gallery:
         - image: "/images/spread.png"
           title: ""
