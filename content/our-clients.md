@@ -2,7 +2,6 @@
 title: The Management
 desc: "WE PROVIDE THE SOLUTION FOR ASSET MANAGEMENT"
 slug: "our-clients/"
-image: "/images/clients.jpg"
 topInfo:
   enable: true
   type: column
