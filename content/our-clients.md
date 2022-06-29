@@ -1,4 +1,5 @@
 ---
+title: The Management
 slug: "our-clients/"
 topInfo:
   enable: true
