@@ -3,7 +3,7 @@ title: Contact Us
 desc: "WE PROVIDE THE SOLUTION FOR ASSET MANAGEMENT"
 slug: "contact-us/"
 topInfo:
-  enable: false
+  enable: true
   type: column
   bg: dark
   list:
