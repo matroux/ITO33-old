@@ -1,6 +1,4 @@
 ---
-title: The Management
-desc: "WE PROVIDE THE SOLUTION FOR ASSET MANAGEMENT"
 slug: "our-clients/"
 topInfo:
   enable: true
