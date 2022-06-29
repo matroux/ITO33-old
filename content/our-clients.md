@@ -6,15 +6,15 @@ topInfo:
   type: column
   bg: dark
   list:
-  - text: <small>150+</small> Companies
+  - text: <small>120+</small> Companies
     image: "/images/1.svg"
     position: "center"
     class: 
-  - text: <small>36+</small> Countries
+  - text: <small>20+</small> Countries
     image: "/images/2.svg"
     position: "center"
     class: 
-  - text: <small>300+</small> Cases
+  - text: <small>50+</small> System Integration
     image: "/images/3.svg"
     position: "center"
     class: 
