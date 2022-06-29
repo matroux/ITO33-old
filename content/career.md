@@ -2,7 +2,6 @@
 title: Career
 desc: "WE PROVIDE THE SOLUTION FOR ASSET MANAGEMENT"
 slug: "Career/"
-image: "/images/career.png"
 topInfo:
   enable: true
   type: column
