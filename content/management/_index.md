@@ -1,6 +1,6 @@
 ---
 title: The Management
-desc: "Meet Our Leadership Team at ITO33"
+desc: "MEET OUR LEADERSHIP TEAM AT ITO33"
 slug: "management/"
 image: "/images/management.jpg"
 topInfo:
