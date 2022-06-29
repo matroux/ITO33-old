@@ -29,7 +29,7 @@ hero:
   image: /images/support.jpg
   youTudeID: ""
 - heading: | 
-   BALANCE
+   FLEXIBILITY
   subHeading: |
    EQUITY TO CREDIT SOLUTIONS 
    WITH JUST THE RIGHT BALANCE
