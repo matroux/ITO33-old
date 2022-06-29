@@ -1,6 +1,6 @@
 ---
 title: CoCo33
-subtitle: Pricing and Risk Management Framework
+subtitle: Valuation and Risk Management Service 
 description: |
  CoCo33 is a pricing and risk management framework for regulatory capital securities issued by banks following the Basel III capital adequacy requirements. It relies on a powerful equity-to-credit regime switching reduced form model with stochastic bail-in intensities and stochastic credit to analyse AT1 CoCo bonds, perpetual non-cumulative preferred shares and Tier 2 bonds issued by banks.
 image: "/images/solutions.jpg"
@@ -19,7 +19,7 @@ widgets:
     - enable: true
       type: solutions
       title: >-
-        pricing and risk management framework    
+        Valuation and risk management service     
         
         for regulatory capital securities
       subtitle: WE PROVIDE THE SOLUTION FOR ASSET MANAGEMENT
