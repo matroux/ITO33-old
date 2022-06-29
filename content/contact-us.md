@@ -1,10 +1,9 @@
 ---
-title: The Management
+title: Contact Us
 desc: "WE PROVIDE THE SOLUTION FOR ASSET MANAGEMENT"
 slug: "contact-us/"
-image: "/images/clients.jpg"
 topInfo:
-  enable: true
+  enable: false
   type: column
   bg: dark
   list:
