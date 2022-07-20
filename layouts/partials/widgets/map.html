@@ -26,8 +26,9 @@
                     </li>
                 {{end}}
             </ul>
-            <div class="map py-5 body-content d-flex justify-content-cemeter align-items-center" style="background-image:url({{.bgImage}})">
+            <div class="map py-5 body-content d-flex justify-content-cemeter align-items-center">
                 <div class="tab-content my-5" id="myTabContent" >
+                    <img src="{{.bgImage}}" alt="map" class="img-fluid">
 
                     {{ range $i, $data := .itemlists }}
                     <div class="tab-pane fade {{ if eq $i 0}} show active {{ end }} bg-white px-4 py-2" id='{{ replace .country " " "-" | lower }}' role="tabpanel" aria-labelledby='{{ replace .country " " "-" | lower }}-tab'>{{.content }}

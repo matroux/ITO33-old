@@ -2,6 +2,7 @@
 title: Contact Us
 desc: "WE PROVIDE THE SOLUTION FOR ASSET MANAGEMENT"
 slug: "contact-us/"
+image: "/images/clients.jpg"
 topInfo:
   enable: true
   type: column
