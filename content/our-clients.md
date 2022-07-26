@@ -22,7 +22,7 @@ widgets:
   before:
     - enable: true
       type: full-width
-      class: our-client
+      class: our-client pb-2
       title: Our Clients
       subtitle: >-
         ITO33 has clients spanning the major financial centers of the world. <br>
@@ -35,7 +35,7 @@ widgets:
         and our customer support with responsiveness and expertise. Don't take our word for it, though.    
         
         Here's what some of them had to say.
-      bodyClass: "text-center mt-5 color-text"
+      bodyClass: "text-center mt-5 color-text "
     - enable: true
       type: map
       class: map

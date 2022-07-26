@@ -3,11 +3,11 @@
 {{ $class := .class }}
 {{ $bodyClass := .bodyClass }}
 
-<section class="section" >
+<section class="section pt-2" >
     <div class="container">
         {{ if or  .title .subtitle }}
         <div class="row">
-            <div class="col section-heading text-center mb-5">
+            <div class="col section-heading text-center mb-3">
                 <h2>{{.title | markdownify }}</h2>
                 <div>{{ .subtitle  | safeHTML}}</div>
             </div>
@@ -17,7 +17,7 @@
             <div class="col-12 {{ $bodyClass }}">
               
                 <!-- RH: this is bootstrap 5 tabbed panel -->
-            <ul class="nav nav-tabs mb-5 pb-5 map-tab justify-content-center" id="myTab" role="tablist">
+            <ul class="nav nav-tabs mb-1 pb-0 map-tab justify-content-center" id="myTab" role="tablist">
                 {{ range $i, $data := .itemlists }}
                     <li class="nav-item" role="presentation">
                         <a class="nav-link {{ if eq $i 0}}  active {{ end }}" id='{{ replace .country " " "-" | lower }}-tab' data-bs-toggle="tab" href='#{{ replace .country " " "-" | lower }}' role="tab" aria-controls='{{ replace .country " " "-" | lower }}' aria-selected="{{ if eq $i 0}}  true {{else }} false {{ end }}">
@@ -26,18 +26,16 @@
                     </li>
                 {{end}}
             </ul>
-            <div class="map py-5 body-content d-flex justify-content-cemeter align-items-center">
-                <div class="tab-content my-5" id="myTabContent" >
-                    <img src="{{.bgImage}}" alt="map" class="img-fluid">
-
+            <div class="map py-3 pt-0 body-content d-flex justify-content-cemeter align-items-center">
+                <div class="tab-content my-2 mt-0 w-100" id="myTabContent" >
+                    <div class="text-center">
+                        <img src="{{.bgImage}}" alt="map" class="img-fluid">
+                    </div>                    
                     {{ range $i, $data := .itemlists }}
                     <div class="tab-pane fade {{ if eq $i 0}} show active {{ end }} bg-white px-4 py-2" id='{{ replace .country " " "-" | lower }}' role="tabpanel" aria-labelledby='{{ replace .country " " "-" | lower }}-tab'>{{.content }}
-                        <ul class="item-square">
-                        
-                            <li>{{.name}}</li>
-                        
-                    </ul>
-                    
+                        <ul class="item-square">                        
+                            <li>{{.name}}</li>                        
+                        </ul>                    
                     </div>
 
                     {{end}}
