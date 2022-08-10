@@ -90,7 +90,7 @@ widgets:
         content: >-
          "We hope to use your product for the life of our firm and are excited to integrate it into our process"
       - flag: /images/hongkong.svg
-        country: HongKong
+        country: Hong-Kong
         name: Senior Developer at Honk-Kong based hedge fund
         content: >-
          "You guys are really helpful - I guess I have sent 20+ emails today and all got prompt replies!"
