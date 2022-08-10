@@ -25,10 +25,9 @@ widgets:
       class: our-client pb-2
       title: Our Clients
       subtitle: >-
-        ITO33 has clients spanning the major financial centers of the world. 
-        
+        ITO33 has clients spanning the major financial centers of the world.
       content: >-
-       From New York to Paris,  
+        From New York to Paris, London to Sydney,    
 
         our customers have come to equate our products and services with quality and reliability,    
         
