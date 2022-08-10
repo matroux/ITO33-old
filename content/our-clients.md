@@ -91,6 +91,11 @@ widgets:
          "We hope to use your product for the life of our firm and are excited to integrate it into our process"
       - flag: /images/hongkong.svg
         country: HongKong
+        name: Senior Developer at Honk-Kong based hedge fund
+        content: >-
+         "You guys are really helpful - I guess I have sent 20+ emails today and all got prompt replies!"
+      - flag: /images/hongkong.svg
+        country: HongKong
         name: Market Risk Group, First Tier European bank in Hong-Kong
         content: >-
          "Market Risk has checked ITO33 for all trades, and the conclusions of the tests are positive. Prices of CBs with soft call, hard call, put, cross currency (quanto) have been checked. Convergence of CBO pricer has been checked. Relevance of prices in degenerate cases has been checked. Analysis of sensitivity has been done. All results were satisfactory."
