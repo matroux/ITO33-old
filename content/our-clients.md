@@ -75,7 +75,7 @@ widgets:
         content: >-
           "It is nice to see the ITO33 team so quick with their turnaround."
       - flag: /images/us.svg
-        country: San Francisco1
+        country: San Francisco
         name: Founder and CIO of San Francisco based hedge fund
         content: >-
          "The great things about the Opscore model are that it allows the user to value complex convertible bond features which are pretty much ignored by every other model out there and that it allows the user to input an issuer-specific jump-diffusion process"
@@ -84,6 +84,11 @@ widgets:
         name: Capital Markets Originator, Top South African bank, Johannesburg
         content: >-
          "Opscore is very useful and is indeed helping us structure and price instruments for our clients."
+      - flag: /images/us.svg
+        country: Idaho
+        name: Senior Portfolio Manager of Idaho based hedge fund
+        content: >-
+         "We hope to use your product for the life of our firm and are excited to integrate it into our process"
       - flag: /images/hongkong.svg
         country: HongKong
         name: Market Risk Group, First Tier European bank in Hong-Kong
