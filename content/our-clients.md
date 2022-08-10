@@ -74,11 +74,11 @@ widgets:
         name: Large Swiss asset manager with a strong emphasis on convertible bonds
         content: >-
           "It is nice to see the ITO33 team so quick with their turnaround."
-      - flag: /images/russia.svg
-        country: Moscow
-        name: Quant at large Russian bank based in Moscow and London
+      - flag: /images/us.svg
+        country: San Francisco
+        name: Founder and CIO of San Francisco based hedge fund
         content: >-
-         "We have been testing different convertible bond models and by far prefer the use of Opscore. We will continue the testing, but will likely be recommending that we purchase yours."
+         "The great things about the Opscore model are that it allows the user to value complex convertible bond features which are pretty much ignored by every other model out there and that it allows the user to input an issuer-specific jump-diffusion process"
       - flag: /images/southafrica.svg
         country: Johannesburg
         name: Capital Markets Originator, Top South African bank, Johannesburg
