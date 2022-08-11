@@ -94,6 +94,11 @@ widgets:
         name: Senior Developer at Honk-Kong based hedge fund
         content: >-
          "You guys are really helpful - I guess I have sent 20+ emails today and all got prompt replies!"
+      - flag: /images/sp.svg
+        country: Singapore
+        name: Project manager of a large Singapore based hedge fund
+        content: >-
+         "Go Live went fine and was successful thanks to the involvement of the ITO33 team from the early stages of the project."
       - flag: /images/hongkong.svg
         country: HongKong
         name: Market Risk Group, First Tier European bank in Hong-Kong
