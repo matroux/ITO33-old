@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 42 30" style="enable-background:new 0 0 42 30;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:url(#SVGID_1_);}
+</style>
+<pattern  y="30" width="589.4" height="421" patternUnits="userSpaceOnUse" id="a" viewBox="105.3 -421 589.4 421" style="overflow:visible;">
+	<g>
+		<rect x="105.3" y="-421" class="st0" width="589.4" height="421"/>
+		
+			<image style="overflow:visible;enable-background:new    ;" width="800" height="421" xlink:href="CE89DBC6.jpg"  transform="matrix(1 0 0 -1 0 0)">
+		</image>
+	</g>
+</pattern>
+<pattern  id="SVGID_1_" xlink:href="#a" patternTransform="matrix(7.125891e-02 0 0 -7.125891e-02 -7481.522 -8237.751)">
+</pattern>
+<rect class="st1" width="42" height="30"/>
+<image style="overflow:visible;" width="275" height="183" xlink:href="CE89DBCA.jpg"  transform="matrix(0.1655 0 0 0.1655 -2.3647 -8.510638e-02)">
+</image>
+</svg>
