@@ -94,7 +94,7 @@ widgets:
         name: Senior Developer at Honk-Kong based hedge fund
         content: >-
          "You guys are really helpful - I guess I have sent 20+ emails today and all got prompt replies!"
-      - flag: /images/sp.svg
+      - flag: /images/sing.svg
         country: Singapore
         name: Project manager of a large Singapore based hedge fund
         content: >-
