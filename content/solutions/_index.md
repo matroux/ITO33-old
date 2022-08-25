@@ -9,7 +9,7 @@ widgets:
       type: section
       section: solutions
       title: >-
-        Evolve in today's ever-changing    
+        Evolve in today's ever-changing 2   
 
         digital world with connected solutions    
         
