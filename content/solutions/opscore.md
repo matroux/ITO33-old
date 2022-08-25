@@ -3,7 +3,7 @@ title: Opscore
 subtitle: The Convertible Bond  Pricing Solution
 published: "2022-02-18T10:47:55Z"
 description: |
-  The complete front-office solution for the pricing, the hedging and the analysis of convertible securities.  It consists of three components: a data model of terms  and conditions, a pricing engine and an excel front-end.
+  The complete front-office solution for the pricing, the hedging and the analysis of convertible securities. Opscore consists of four components: a data model of terms  and conditions, a pricing engine and an excel front-end.
 image: "/images/solutions.jpg"
 productImage: "/images/p1.jpg"
 topInfo:
