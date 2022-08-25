@@ -9,7 +9,7 @@ widgets:
       type: section
       section: solutions
       title: >-
-        Evolve in today's ever-changing 2   
+        Evolve in today's ever-changing    
 
         digital world with connected solutions    
         
@@ -30,7 +30,7 @@ widgets:
           url: "#requestdemo"
           popup: "true"
       - heading: |
-         Pricing and Risk Management Framework
+         Valuation and Risk Management Service 
         subheading: CoCo33
         image: "/images/coco3.png"
         background: "#97BED6"
