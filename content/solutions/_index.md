@@ -10,7 +10,7 @@ widgets:
       section: solutions
       title: >-
         Navigate in today's volatile markets with robust solutions and reliable outputs        
-      subtitle: WE PROVIDE THE SOLUTION FOR ASSET MANAGEMENT
+      subtitle: WE PROVIDE THE SOLUTION FOR ASSET MANAGEMENT 2
       lists:
       - heading: |
           The Convertible Bond Pricing Solution
