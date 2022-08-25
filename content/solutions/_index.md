@@ -9,11 +9,11 @@ widgets:
       type: section
       section: solutions
       title: >-
-        Navigate in today' s      
+        Navigate in today's volatile markets   
 
-        volatile markets  
+        with
         
-        with robust solutions and reliable outputs
+        robust solutions and reliable outputs
       subtitle: WE PROVIDE THE SOLUTION FOR ASSET MANAGEMENT
       lists:
       - heading: |
