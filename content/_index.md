@@ -31,8 +31,7 @@ hero:
 - heading: | 
    FLEXIBILITY
   subHeading: |
-   EQUITY TO CREDIT SOLUTIONS 
-   WITH JUST THE RIGHT BALANCE
+   STATE OF THE ART APIS ALLOW EASY SYSTEM INTEGRATION
   image: /images/balance.jpg
   youTudeID: ""
 ctaImage:  "/images/cta.jpg"
