@@ -9,11 +9,11 @@ widgets:
       type: section
       section: solutions
       title: >-
-        Evolve in today's ever-changing    
+        Navigate in today's      
 
-        digital world with connected solutions    
+        volatile markets  
         
-        that make your work easier
+        with robust solutions and reliable outputs
       subtitle: WE PROVIDE THE SOLUTION FOR ASSET MANAGEMENT
       lists:
       - heading: |
