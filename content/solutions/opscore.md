@@ -39,7 +39,7 @@ widgets:
          <i class="fa fa-check"></i> EXCEL FRONT END       
         image: images/frontend.JPG
         subtitle: ''
-        title: ' Opscore consists of three components:'
+        title: ' Opscore consists of four components:'
         button:
           enable: "true"
           label: "Request a Demo"
