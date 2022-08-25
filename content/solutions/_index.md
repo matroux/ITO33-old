@@ -9,8 +9,12 @@ widgets:
       type: section
       section: solutions
       title: >-
-        Navigate in today's volatile markets with robust solutions and reliable outputs        
-      subtitle: WE PROVIDE THE SOLUTION FOR ASSET MANAGEMENT 2
+        Evolve in today's ever-changing    
+
+        digital world with connected solutions    
+        
+        that make your work easier
+      subtitle: WE PROVIDE THE SOLUTION FOR ASSET MANAGEMENT
       lists:
       - heading: |
           The Convertible Bond Pricing Solution
@@ -26,7 +30,7 @@ widgets:
           url: "#requestdemo"
           popup: "true"
       - heading: |
-         Valuation and Risk Management Service 
+         Pricing and Risk Management Framework
         subheading: CoCo33
         image: "/images/coco3.png"
         background: "#97BED6"
