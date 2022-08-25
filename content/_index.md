@@ -16,7 +16,7 @@ hero:
   image: /images/beat.jpg
   youTudeID: ""
 - heading: | 
-   PERFORMANCE2
+   PERFORMANCE
   subHeading: |
    FAST
    SUPERIOR NUMERICS ACHIEVE BEST-IN-CLASS PERFORMANCE
