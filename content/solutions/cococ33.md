@@ -40,7 +40,7 @@ widgets:
          <i class="fa fa-check"></i> smooth integration        
         image: images/Cocobanking.jpg
         subtitle: ''
-        title: 'Sage Intacct receives the  highest product score in  Core Financials'
+        title: 'CoCo33 exhibits every output a risk manager can dream of'
         button:
           enable: "true"
           label: "Request a Demo"
