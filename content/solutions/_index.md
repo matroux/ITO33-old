@@ -9,9 +9,7 @@ widgets:
       type: section
       section: solutions
       title: >-
-        Navigate in today's      
-
-        volatile markets  
+        Navigate in today's volatile markets        
         
         with robust solutions and reliable outputs
       subtitle: WE PROVIDE THE SOLUTION FOR ASSET MANAGEMENT
