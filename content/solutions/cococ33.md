@@ -31,13 +31,13 @@ widgets:
       bannerItem:
       - bg_image: images/backgrounds/about-us-bg.webp
         content: >-
-         <i class="fa fa-check"></i> equity-to-credit regime    
+         <i class="fa fa-check"></i> JOINT CALIBRATION    
 
 
-         <i class="fa fa-check"></i> joint calibration    
+         <i class="fa fa-check"></i> CONSISTENT PRICING OF ALL BANKING COCOS OF THE SAME ISSUER    
 
 
-         <i class="fa fa-check"></i> smooth integration        
+         <i class="fa fa-check"></i> COMPUTING OF RISK PARAMETERS INCLUDING BAIL-IN PROBABILITIES     
         image: images/Cocobanking.jpg
         subtitle: ''
         title: 'CoCo33 exhibits every output a risk manager can dream of'
