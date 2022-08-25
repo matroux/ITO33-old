@@ -36,7 +36,7 @@ widgets:
          <i class="fa fa-check"></i> PRICING ENGINE   
 
 
-         <i class="fa fa-check"></i> EXCEL FRONT END       
+         <i class="fa fa-check"></i> ANALYSIS AND SIMULATION FRONT-END        
         image: images/frontend.JPG
         subtitle: ''
         title: ' Opscore consists of four components:'
