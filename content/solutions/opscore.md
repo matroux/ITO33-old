@@ -3,7 +3,7 @@ title: Opscore
 subtitle: The Convertible Bond  Pricing Solution
 published: "2022-02-18T10:47:55Z"
 description: |
-  The complete front-office solution for the pricing, the hedging and the analysis of convertible securities.  It consists of three components: a data model of terms  and conditions, a pricing engine and an excel front-end.
+  The complete front-office solution for the pricing, the hedging and the analysis of convertible securities.  It consists of four components: a data model of terms  and conditions, a pricing engine, analysis and simulation front-end and an excel screening tool.
 image: "/images/solutions.jpg"
 productImage: "/images/p1.jpg"
 topInfo:
@@ -54,7 +54,7 @@ widgets:
       - title: DATA MODEL OF TERMS AND CONDITIONS
         subtitle: 'Opscore'
         content: >-
-         Opscore is our complete front-office solution for the pricing, hedging and analysis of convertible securities. According to Sheen Kassouf and Edward Thorp              (co-authors of Beat the Market), a convertible security is “any security that may be exchanged for common stock”. In addition to warrants, Kassouf and Thorp's            classification includes convertible bonds, convertible preferred stocks, calls, stock rights and stock options. Opscore consists of three components:
+         Opscore is our complete front-office solution for the pricing, hedging and analysis of convertible securities. According to Sheen Kassouf and Edward Thorp              (co-authors of Beat the Market), a convertible security is “any security that may be exchanged for common stock”. In addition to warrants, Kassouf and Thorp's            classification includes convertible bonds, convertible preferred stocks, calls, stock rights and stock options. Opscore consists of four components:
 
            The clauses of convertible securities can be so complex that their accurate treatment not only necessitates pricing engines as evolved as ours, but also                 requires referring to the prospectus as the only reliable and complete source of information.
 
